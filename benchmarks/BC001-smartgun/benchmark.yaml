@@ -1,0 +1,22 @@
+benchmark_id: BC001
+version: v0.1-provisional
+case: traceable biometric smart firearm
+scope: patentability-oriented technical relevance experiment
+gold_set: GOLD-10
+additional_judged_set: ADDITIONAL-JUDGED-5
+hard_negative_set: NEG-5
+feature_schema: F1-F8-v0.1-provisional
+feature_schema_status: AI-normalized_partially_validated
+current_retrieval_run: RUN-012
+database: FAMPAT
+run_date: 2026-09-16
+result_count: 3238
+query_semantics: document-level AND between authentication and control groups
+export_fields:
+  - representative_publication
+  - title
+  - abstract
+  - questel_unique_family_identifier
+  - family_publication_details
+gold_recovery_full_set: 6/10
+warning: RUN-012 is not equivalent to RUN-005A unless native Orbit history proves equivalence

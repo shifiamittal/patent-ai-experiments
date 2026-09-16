@@ -1,0 +1,12 @@
+{
+  "experiment": "EXP-013",
+  "recall_at_20": "2/10",
+  "recall_at_50": "2/10",
+  "recall_at_100": "4/10",
+  "recall_at_200": "5/10",
+  "recall_at_500": "5/10",
+  "recall_at_1000": "6/10",
+  "median_rank_retrieved_gold": 90.5,
+  "precision_at_20": null,
+  "status": "INCONCLUSIVE_PENDING_ADJUDICATION"
+}

@@ -1,0 +1,10 @@
+benchmark: BC001-v0.1-provisional
+current_retrieval_baseline: retrieval_v0.1_fampat_20260916_and_variant
+current_reranker_candidate: rs_v0.2_blind_ta_rerank
+current_evidence_assistant: ee_v0.1_fulltext_passage_assist
+champion: null
+blocking_validation: PA-001
+next_experiment: adjudicate_v1_top20_then_compute_precision20_and_net_new_yield
+notes:
+  - Do not merge RUN-005A 3091 snapshot with RUN-012 3238 rerun.
+  - No end-to-end search system is validated.

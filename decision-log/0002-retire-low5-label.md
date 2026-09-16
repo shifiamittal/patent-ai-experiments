@@ -1,0 +1,2 @@
+# Decision 0002
+Retire LOW-5. Use ADDITIONAL-JUDGED-5.
