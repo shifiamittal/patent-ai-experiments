@@ -1,0 +1,100 @@
+US20140259847A1 - Integrated firearm safety system 
+        - Google Patents
+ 
+ Description 
+ 
+ 
+ 
+ CROSS-REFERENCE TO RELATED APPLICATIONS 
+ The present application claims benefit of U.S. Provisional Application No. 61/760,218, filed Feb. 4, 2013, the entire content of which is incorporated herein by reference. 
+ 
+ 
+ SUMMARY OF THE INVENTION 
+ The invention is directed towards the system and method for a safe and reliable use of an individual firearm. 
+ In one embodiment, the invention is directed to a firearm monitoring system comprising a firearm and at least one built-in safety element selected from a GPS unit, a cellular network unit, a discharge sensor, an emergency signaling unit, or a combination thereof. The firearm monitoring system may further comprise a biosensor integrated with a firearm. 
+ In another embodiment, the invention is directed to a method for a firearm monitoring comprising the steps of: a. equipping the firearm with at least one safety element; b. establishing a Central Control and Monitoring Station (CCMS); c. enabling a signal transmission from the safety element to the CCMS, d. providing the means for remotely or automatically activating or deactivating the firearm in response to a trigger information (signal). 
+ In a further embodiment, the method comprises the steps of: a. activating a position locating and transmitting system; b. monitoring a firearm location; c. transmitting the firearm location data to a CCMS; d. remotely deactivating the firearm if its location coincides with a public safety zone. The method may further comprise a step of activating a biosensor to determine whether the firearm is handled by an authorized person, wherein the biosensor is automatically activated by handling the firearm. 
+ In a yet further embodiment, the invention discloses a firearm safety kit comprising a firearm, an optional biosensor, at least one built-in safety element, a means for a data transmission from the safety element to a CCMS, a means for data processing at the CCMS, a means for the signal transmission from the CCMS to the safety element, and a means for activating or deactivating the firearm remotely from the CCMS. 
+ 
+ 
+ DETAILED DESCRIPTION 
+ The current invention in the entirety of all its embodiments is directed towards providing a system and method of a safe firearm handling and exploitation to minimize the risk posed to the firearm owners and public. 
+ For the purposes of this invention, a firearm is defined as a projectile weapon including but not limited to handguns, long guns, carbines; repeating, semi-automatic and automatic guns, pistols, shotguns, assault weapons. 
+ The invention is also directed towards beam/ray weapons and any other hand-held weapons operating through an energy discharge. 
+ In one aspect, the invention is directed towards a method and system of prevention of handling of a weapon by any person who is not authorized to handle the weapon. For this purpose, the firearm monitoring system of the instant invention comprises an integrated biosensor that scans biometric information of a person intending to handle a weapon and compares it with the stored biometric information of a person authorized to handle the firearm. 
+ The biosensors useful in the practice of the instant invention include but are not limited to fingerprinting devices, grip recognition devices, voice, face or eyes recognition devices, or any biometric data scanning devices that may be conveniently integrated into a firearm. The respective biometric information scanned by the biosensor includes fingerprints, voice patterns, grip pattern, facial features, eye iris pattern, or any other unique biometric information that may be processed, stored and compared by a biosensor. 
+ At the attempt to handle the firearm, the integrated biosensor as described above scans the biometric information of the handler and compares it with the stored biometric information of the authorized person. If the biometric information corresponds to that of the authorized person, the handler is allowed to use the weapon. If no match is found with the stored biometric information, the firearm automatically activates the lock and prevents the handler from using the firearm. In an additional embodiment of the invention, the firearm further transmits an alert signal to a Central Control and Monitoring Station (CCMS). 
+ In another aspect, the invention is directed towards a method of prevention of a non-authorized firearm discharge in or around public or semi-public areas and at locations that are not approved for such a discharge. For the purposes of this invention, a public or semi-public area is defined as a space open and accessible to public, including but not limited to workplaces, educational institutions, retail and recreation areas, public transportation, roads and highways. 
+ In particular, the invention is directed towards a method for a firearm monitoring comprising the steps of: a. equipping the firearm with at least one integrated safety element; b. establishing a CCMS; c. enabling a signal transmission from the safety element to the CCMS, d. providing the means for remotely or automatically activating or deactivating the firearm in response to a trigger information (signal). 
+ The method can additionally comprise the steps of e. equipping the firearm with an integrated biosensor; and f. storing the biometric information of the authorized person. 
+ In another embodiment, the invention is directed towards a method for a firearm monitoring comprising the steps of: a. activating a position locating and transmitting system; b. monitoring a firearm location; c. transmitting the firearm location data to a CCMS; d. remotely deactivating the firearm if its location coincides with a public safety zone. The public safety zone is defined here as a zone including a public or semi-public place and additional and pre-determined surrounding area. The method can additionally comprise the step of activating a biosensor to determine whether the firearm is handled by an authorized person, wherein the biosensor is automatically activated by handling the firearm. 
+ The biosensor and its mode of action have been discussed above. At least one built-in safety element useful in the practice of the current invention is selected from a satellite navigation unit, a cellular network unit, a discharge sensor, an emergency signaling unit (“emergency button”), or a combination thereof. The satellite navigation unit may be any positioning unit capable of receiving a satellite signal, calculating the location of the firearm, and transmitting the location information to the CCMS. By the way of a non-limiting example, a GPS unit may be used as a satellite navigation unit. The GPS unit comprises a GPS receiver and a GPS transmitter. The GPS unit is automatically activated by handling the weapon and remains active till the weapon is returned to the storage unit. 
+ A cellular wireless unit useful for the invention enables communication of the firearm with the CCMS. In particular, the cellular wireless unit sends location and biometric data to CCMS. Upon receiving the data, CCMS generates a decision on activation or deactivation of the weapon, based on biometric data, location data and/or other factors, such as a distance to the public shooting free zone, and transmits the data to the weapon through the wireless cellular system. The firearm wireless cellular unit receives the signal from CCMS via the cellular network and electronically and programmatically locks or unlocks the firearm. The cellular unit comprises a cellular receiver and a cellular transmitter. 
+ The coordination of work and activity of all elements of the system is controlled by client/server software system. Client software is installed on individual firearm. Server software system is installed on CCMS. Client software collects all necessary data and securely transmits it to CCMS server system. CCMS server system analyzes all information and transmits “lock/unlock” signal to Client Software firearm unit. Upon receiving the result “lock/unlock” from CCMS, the client software enables or disables firearm discharge mechanism through the electronic or mechanical means. 
+ In addition to the safety elements discussed above, the safety monitoring system of the instant invention may comprise a build-in discharge sensor and/or an emergency “button”. A discharge sensor, which may be any sensor capable of detecting a firearm discharge and transmitting the information about the discharge to the CCMS through the wireless cellular networks, may be represented, without limitations, by electronic or mechanical sensors. The emergency “button” may be manually activated by the user or any other person in case of the emergency. It will send a distress signal to the CCMS through the cellular network. Any of the number of devices known in the art may be used for these purposes. 
+ Further, the firearm of the instant invention is equipped by a rechargeable energy supply and is provided with a secure housing capable of detecting a non-authorized firearm removal. 
+ In a further embodiment, the invention is directed towards a firearm safety kit comprising a firearm, at least one built-in safety element, a means for a data transmission from the safety element to a CCMS, a means for data processing at the CCMS, a means for the signal transmission from the CCMS to the safety element, and a means for deactivating and activating the firearm remotely from the CCMS. The kit may also comprise a biosensor integrated with a firearm. The safety elements, data transmission means, signal transmission means and activation/deactivating means suitable for the kit of the instant invention may be represented by the means disclosed in the previous embodiments, but not limited to them in any extent. Any functionally comparable means may be used for successful practicing of the instant invention. 
+ In addition to the elements of this embodiment described above, the kit also includes necessary computer hardware and software for installation at the CCMS, and respective instructions and manuals. The kits of the instant invention may be useful for military, law enforcement forces, training purposes and for a variety of other activities and situations. 
+ Other modifications and enhancements to the invention can be made without departing from the spirit and scope of the claims that follow. 
+ 
+ 
+ 
+ 
+ 
+ Claims ( 17 ) 
+ 
+ 
+ 
+ 1 . A firearm monitoring system comprising: (a) a firearm and at least one built-in safety element selected from a GPS unit, a cellular network unit, a discharge sensor, an emergency signaling unit, or a combination thereof, (b) a central control and monitoring system (CCMS) and (c) a client/server software system, wherein the client software is installed on the firearm, and the server software is installed at CCMS. 
+ 
+ 
+ 2 . The system of claim 1 further comprising a biosensor. 
+ 
+ 
+ 3 . The system of claim 2 wherein the biosensor is selected from a fingerprinting device, a grip recognition device, a voice recognition device, a face recognition device, or an eye recognition device. 
+ 
+ 
+ 4 . The system of claim 1 wherein the GPS unit comprises a GPS transmitter and a GPS receiver. 
+ 
+ 
+ 5 . The system of claim 1 , wherein the cellular network unit comprises a cellular wireless receiver and a cellular wireless transmitter. 
+ 
+ 
+ 6 . The system of claim 1 wherein the firearm is selected from a projectile weapon, a beam emitting weapon, or a ray emitting weapon. 
+ 
+ 
+ 7 . The system of claim 1 further comprising a storage unit. 
+ 
+ 
+ 8 . A method for a firearm monitoring comprising the steps of: a. activating a position locating and transmitting system; b. monitoring a firearm location; c. transmitting the firearm location data to a CCMS; c. remotely deactivating the firearm if its location coincides with a public safety zone. 
+ 
+ 
+ 9 . The method of claim 8 , further comprising a step of equipping the firearm with at least one safety element selected from a position locating and transmitting system, a cellular network unit, a discharge sensor, an emergency signaling unit, or a combination thereof. 
+ 
+ 
+ 10 . The method of claim 8 , further comprising the steps of e. equipping the firearm with a biosensor; and f. storing biometric information of a person. 
+ 
+ 
+ 11 . The method of claim 10 further comprising a step of activating a biosensor to determine whether the firearm is handled by an authorized person, wherein the biosensor is automatically activated by handling the firearm. 
+ 
+ 
+ 12 . The method of claim 10 wherein the biosensor is a fingerprint sensor and the biometric information comprises a fingerprint. 
+ 
+ 
+ 13 . The method of claim 8 wherein the position locating and transmitting system comprises a GPS receiver and transmitter, a cellular receiver and transmitter, or a combination thereof. 
+ 
+ 
+ 14 . The method of claim 8 further comprising a step of transmitting a trigger information signal, a firearm discharge signal or an emergency signal to the CCMS. 
+ 
+ 
+ 15 . The method of claim 8 wherein the firearm is selected from a projectile weapon, a beam emitting weapon, or a ray emitting weapon. 
+ 
+ 
+ 16 . The method of claim 14 , wherein the trigger information signal comprises an emergency signal, an information that the firearm location coincides with a public safety zone, an information that the handler biometric data differs from the authorized person biometric data, a discharge signal, or a combination thereof. 
+ 
+ 
+ 17 . A firearm safety kit comprising a firearm, at least one built-in safety element, a means for a data transmission from the safety element to a CCMS, a means for data processing at the CCMS, a means for a signal transmission from the CCMS to the safety element, and a means for deactivating and activating the firearm remotely from the CCMS. 
+ 
+ 
+ 
+ 

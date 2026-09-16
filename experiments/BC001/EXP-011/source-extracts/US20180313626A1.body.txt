@@ -1,0 +1,81 @@
+US20180313626A1 - Suppressor for a firearm 
+        - Google Patents
+ 
+ Description 
+ 
+ 
+ 
+ RELATED APPLICATIONS 
+ This application claims priority to U.S. Provisional Application No. 62/490,239 filed Apr. 26, 2017. The entire contents of the above application are hereby incorporated by reference as though fully set forth herein. 
+ 
+ 
+ BACKGROUND 
+ This invention relates to suppressors or silencers for firearms. More particularly, this invention relates to specialized firearm barrel adaptations for suppressing gunfire noise. 
+ To fire a bullet from a firearm, gunpowder is ignited behind a bullet. The gunpowder creates a high-pressure pulse of hot gas. The pressure of the gas forces the bullet down the barrel of the gun. When the bullet exits the end of the firearm barrel, the pressure behind the bullet is immense and just like popping the cork on a bottle; the “pop” sound it creates is very loud. The sound is from the initial pressure wave coming out the barrel. Additional gas comes out after the initial pressure wave but not as much as the initial wave. 
+ Known suppressors or silencers typically consist of an outer housing that is connectable to the end of the rifle barrel by screw threads. Traditional suppressors or silencers have a larger volume compared to the barrel (20 or 30 times greater). With the suppressor or silencer in place, the pressurized gas behind the bullet has a big space to expand into, decreasing the pressure of the heated gas. When the bullet finally exits through the hole in the suppressor or silencer, the pressure being released is decreased; therefore, the sound of the gun firing is much softer. 
+ The interior of the housing of typical suppressors or silencers support a plurality of individual cone-shaped baffle members separated by spacer members. There is a balancing act with suppressors or silencers used with many firearms. The baffles within the suppressors are needed to divert the gas from the bore in order to allow the gas to expand and depressurize; but, if the suppressor or silencer is too efficient in slowing gas down, it builds up an excess amount of pressure in the firearm barrel and causes the firearm to malfunction. 
+ In comparison to long guns such as rifles or shotguns, handguns/pistols are smaller, lighter, and easier to carry. A sight is a device used to assist aligning or aiming rifles and pistols alike. A suppressor is useful on a pistol as well as a rifle; however, when a traditional suppressor or silencer is used on a pistol rather than a rifle it generally means you have to use a larger sight to accommodate the diameter of the baffle needed to adequately suppress sound from a pistol. This is especially true for 9 mm or 45 mm pistols, which are some of the most commonly used pistols. 
+ There is a point of diminishing returns on efforts to eliminate sound from a firearm since a suppressor cannot eliminate the supersonic shockwave, or “crack” caused by the bullet traveling in excess of the speed of sound. Instead, it is important to focus on inventive concepts that allow the suppressor or silencer to be made smaller, cheaper, stronger, more durable and/or lighter in weight. 
+ Consequently, there is a need for a suppressor or silencer for a pistol that allows for a smaller diameter barrel suppressor that still adequately eliminates sound from the pistol. Additionally, there is a need for a suppressor or silencer for a pistol such that the pistol may function with a traditional pistol sight rather than replacing with a larger sight. 
+ BRIEF SUMMARY OF THE INVENTION 
+ The present invention seeks to meet these needs by providing a suppressor or silencer device for a pistol that does not interfere with a traditional pistol sight, yet is still able to suppress or silence the pistol in substantially equal to or greater efficacy than a traditional suppressor. This is accomplished by attaching an additional chamber on the bottom side of the tubular body (or “bore”) of the suppressor where the bullet is traveling; heated gas behind the bullet travels down into the chamber where its geometry slows the gas down before exiting the chamber. 
+ 
+ 
+ 
+ BRIEF DESCRIPTION OF THE DRAWINGS 
+ FIG. 1 is a cross sectional view of a traditional suppressor or silencer for a firearm. 
+ FIG. 2 is a cross sectional view of a traditional suppressor silencer for a pistol. 
+ FIG. 3 is a cross sectional view of the suppressor or silencer in accordance with an embodiment of the present invention. 
+ FIG. 4 is a top view of the suppressor or silencer of the present invention where the top side of the suppressor or silencer has been removed. 
+ FIG. 5 is a top view of the bypass chamber where the top side of the chamber has been removed. 
+ FIG. 6 is a perspective view of the fully assembled suppressor or silencer of the present invention. 
+ 
+ 
+ 
+ DETAILED DESCRIPTION 
+ Turning to FIG. 1 , a traditional suppressor or silencer for a firearm is shown in cross sectional detail. The tubular casing 100 is threaded at 110 onto the end of the firearm (not shown). The bullet travels along the path of A, exiting the hole 120 . The gas travels along path A and exits out of hole 120 . The gas also travels along path B and expands into the chambers created by a series of flat angled baffles, shown as 140 A-G. 
+ Turning to FIG. 2 , a traditional suppressor or silencer is shown in cross sectional detail. The tubular casing 200 is threaded at 210 onto the end of the firearm (not shown). The bullet travels along the path of A, exiting the hole 220 . The gas travels along path A and exits out of the hole 220 . The gas also travels along path B and expands into the chambers created by a series of cone shaped nested baffles, shown as 230 A-E. 
+ Turning to FIGS. 3-5 , a suppressor or silencer for a pistol of the present invention is shown in various cross-sectional detail. The suppressor or silencer is attached to the barrel of a pistol at end 300 . A bullet (not shown) travels down the length of the tubular casing 310 after exiting the barrel of a pistol (not shown). The bullet travels along the path of A, exiting the hole 320 . The gas travels along path A and exits out of hole 320 . The gas also travels along path B and expands into the chambers created by a series of cone-shaped nested baffles, shown as 330 A-H in FIGS. 3 and 4 . Additionally, there is a semi-tubular casing 340 extending from the bottom end of the tubular casing 310 with sound canceling geometry 350 . The gas also exits along path C and exits out of the semi-circular aperture created at the end of the semi-tubular casing 340 (identified as numeral 430 in FIG. 6 ). 
+ Turning to FIG. 6 , the additional suppressor barrel casing 340 is shown extending from the traditional suppressor barrel casing 410 . A bullet (not shown) will exit out of hole 420 along with a portion of the gas traveling through the casing 410 . Additionally, gas will also travel through suppressor barrel casing 340 and exit out the semi-circular aperture 430 . This directs gas away from the suppressor casing 410 and allows the suppressor to accommodate smaller sights used on pistols, thus eliminating the need to replace with a larger sight when using a suppressor. Additionally, the shape of the suppressor can be extruded as one continuous piece or the lower casing 340 could be bolted to the casing 410 . 
+ For the purposes of promoting an understanding of the principles of the invention, reference has been made to the preferred embodiments illustrated in the drawings, and specific language has been used to describe these embodiments. However, this specific language intends no limitation of the scope of the invention, and the invention should be construed to encompass all embodiments that would normally occur to one of ordinary skill in the art. The particular implementations shown and described herein are illustrative examples of the invention and are not intended to otherwise limit the scope of the invention in any way. For the sake of brevity, conventional aspects of the system (and components of the individual operating components of the system) may not be described in detail. Furthermore, the connecting lines, or connectors shown in the various figures presented are intended to represent exemplary functional relationships and/or physical or logical couplings between the various elements. It should be noted that many alternative or additional functional relationships, physical connections or logical connections may be present in a practical device. Moreover, no item or component is essential to the practice of the invention unless the element is specifically described as “essential” or “critical”. Numerous modifications and adaptations will be readily apparent to those skilled in this art without departing from the spirit and scope of the present invention. 
+ 
+ 
+ 
+ 
+ 
+ Claims ( 9 ) 
+ 
+ 
+ What is claimed is: 
+ 
+ 1 . A suppressor for a firearm comprising:
+ a. a tubular housing of cylindrical cross section having an interior cavity comprising a front end and a back end wherein the back end is attached to the end of a barrel of a firearm; b. a supplemental housing having a front end with an opening and back end that extends longitudinally along the exterior surface of said tubular housing with an opening at the front end; and c. at least one aperture in the shared surface between the supplemental housing and the tubular housing. 
+ 
+ 
+ 2 . The suppressor of claim 1 wherein the interior cavity of the supplemental housing comprises a plurality of structures. 
+ 
+ 
+ 3 . The suppressor of claim 1 wherein the supplemental housing is attached to the bottom surface of the tubular housing. 
+ 
+ 
+ 4 . The suppressor of claim 1 wherein the supplemental housing is attached to a side surface of the tubular housing. 
+ 
+ 
+ 5 . The suppressor of claim 1 wherein the tubular housing further comprises a plurality of baffles with a hollow tubular body of cylindrical cross section having sides that define a gas inlet and a gas outlet end, an interior and exterior surface, and are nested within each other in the interior cavity of the tubular housing. 
+ 
+ 
+ 6 . The suppressor of claim 5 wherein the aperture in the shared surface between the chamber and the tubular housing is located between the back end of the tubular housing and the first baffle. 
+ 
+ 
+ 7 . The suppressor of claim 5 wherein a plurality of apertures are located between the baffles along the shared surface between the supplemental housing and the tubular housing. 
+ 
+ 
+ 8 . A method for slowing the movement of propulsion gas behind a projectile traveling down the bore of a suppressor, comprising the steps of:
+ a. removing gas from the original chamber containing the projectile; b. channeling the removed gas through an auxiliary (or second) chamber having a geometric structure for suppressing noise; and c. allowing the gas to exit out of the opposite end of the auxiliary chamber. 
+ 
+ 
+ 9 . The suppressor of claim 8 wherein the structures within the auxiliary chamber comprise a plurality of walls arranged to force the gas to turn in different directions before exiting the auxiliary chamber. 
+ 
+ 
+ 
+ 
