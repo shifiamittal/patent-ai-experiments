@@ -1,0 +1,5 @@
+role,repository_path,sha256,origin
+Original Questel export,benchmarks/BC001-smartgun/restricted-evaluation/RUN-012/source-export.xlsx,9ef8a3e8843527476c63c580d2f50dc5a99dff64c07a4fad70ae9b37beffac8f,C:\Users\shifi\Downloads\3238 (1).xlsx
+Existing blinded input,experiments/BC001/EXP-013/working-artifacts/input.json,3a2fd18a328cbd575d1cedd05017ce3bfef2c88c3afe15e145a861fa87dba508,Preserved EXP-013 prepared input; matches Downloads blind workbook
+Original V1 ranked workbook,benchmarks/BC001-smartgun/reranking/v1/ranked-output.xlsx,4f5b50c3194970df04db2434b3c56f8ad5e87534944115fdd7191569d09c6f10,Preserved historical output; read only
+Reconstructed evaluation mapping,benchmarks/BC001-smartgun/restricted-evaluation/EXP-013/reconstructed-evaluation-mapping.csv,85b01e21f0c03f2a0f3cf6d7f2fe276307a00b1a6c4cacfa59a5b994cb93ddcd,New post-experiment reconstruction; not original private key

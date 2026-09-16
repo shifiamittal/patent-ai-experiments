@@ -1,0 +1,18 @@
+validation_id: PA-001
+experiment: EXP-013
+status: COMPLETED
+newly_adjudicated_publications: 18
+top20_evaluated_records: 20
+pending_publications: []
+current_adjudication: experiments/BC001/EXP-013/top20-adjudication.csv
+current_metrics: experiments/BC001/EXP-013/top20-metrics.json
+experiment_decision: HOLD
+experiment_status: INCONCLUSIVE
+remaining_comparison_gap: V0 top 20 lacks equivalent analyst adjudication
+identity_mapping: reconstructed post-experiment; original private key unavailable
+identity_ambiguity: unordered ranks 6/7 pair retained; same L/No outcomes; no metric impact
+schema_review_status: PENDING_VALIDATION
+notes:
+  - Supersedes PA-001 pending wording in preserved historical snapshots and CURRENT_SYSTEM.yaml.
+  - KZ6216U was adjudicated from abstract only; full-text availability is not asserted.
+  - Net-new relevant-family yield and analyst review minutes remain N/A.

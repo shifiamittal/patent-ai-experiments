@@ -1,0 +1,5 @@
+role,path,sha256,usage
+analyst request,C:\Users\shifi\.codex\attachments\b778314e-f547-4b31-bb55-e2ab24eec680\pasted-text.txt,9b280acaece4d13774224ec446605644eefa3dfb50853cbc33f61a1f4d87ff15,Read only; not copied or modified
+RUN-012 source export,C:\Users\shifi\Downloads\3238 (1).xlsx,9ef8a3e8843527476c63c580d2f50dc5a99dff64c07a4fad70ae9b37beffac8f,Read only; not copied or modified
+blinded input workbook,C:\Users\shifi\Downloads\BC001_Blind_Reranking_Input.xlsx,034fe430eb75d0d3c1949737ca033af23d6d498812877bfef3ed30518b7b9b03,Read only; not copied or modified
+preserved V1 ranked output,C:\Users\shifi\OneDrive\Documents\ChatGPT\Patent Search automation\benchmarks\BC001-smartgun\reranking\v1\ranked-output.xlsx,4f5b50c3194970df04db2434b3c56f8ad5e87534944115fdd7191569d09c6f10,Read only; not copied or modified

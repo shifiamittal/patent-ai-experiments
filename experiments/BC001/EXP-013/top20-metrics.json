@@ -1,0 +1,51 @@
+{
+  "experiment": "EXP-013",
+  "benchmark": "BC001-v0.1-provisional",
+  "pa_001_status": "COMPLETED",
+  "decision": "HOLD",
+  "status": "INCONCLUSIVE",
+  "hold_reason": "V0 top 20 lacks equivalent adjudication; no comparative promotion decision",
+  "newly_adjudicated_publications": 18,
+  "include_yes": 7,
+  "include_no": 11,
+  "publication_inclusion_yield": {
+    "numerator": 7,
+    "denominator": 18,
+    "value": 0.3888888888888889
+  },
+  "top20_positive_publications_including_gold": 9,
+  "publication_precision_at_20": {
+    "numerator": 9,
+    "denominator": 20,
+    "value": 0.45
+  },
+  "analyst_defined_groups_newly_adjudicated": 15,
+  "includable_newly_adjudicated_groups": 5,
+  "excluded_newly_adjudicated_groups": 10,
+  "new_candidate_family_inclusion_yield": {
+    "numerator": 5,
+    "denominator": 15,
+    "value": 0.3333333333333333
+  },
+  "analyst_defined_groups_top20": 17,
+  "includable_top20_groups": 7,
+  "excluded_top20_groups": 10,
+  "family_deduplicated_report_inclusion_yield_at_20": {
+    "numerator": 7,
+    "denominator": 17,
+    "value": 0.4117647058823529
+  },
+  "net_new_relevant_family_yield": null,
+  "net_new_relevant_family_yield_status": "N/A pending comparison against complete historical report",
+  "analyst_review_minutes": null,
+  "analyst_review_minutes_status": "N/A until supplied",
+  "mapping_origin": "Reconstructed post-experiment; original key unavailable",
+  "ambiguous_top20_ranks": [
+    6,
+    7
+  ],
+  "ambiguity_metric_impact": "None: same L/No and analyst report-family group across both candidate assignments",
+  "family_group_basis": "Analyst report-family groups, not replacements for Questel FAN IDs",
+  "schema_review": "Pending: theft-triggered automatic firearm locking; F1-F8 unchanged",
+  "supersedes_current_metrics": "partial-top20-metrics.json is retained as historical partial snapshot; original V1 metrics preserved"
+}

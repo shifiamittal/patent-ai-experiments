@@ -1,0 +1,55 @@
+{
+  "experiment": "EXP-013",
+  "benchmark": "BC001-v0.1-provisional",
+  "decision": "HOLD",
+  "status": "INCONCLUSIVE",
+  "adjudication_status": "PARTIAL",
+  "newly_adjudicated_publications": 14,
+  "include_yes": 6,
+  "include_no": 8,
+  "publication_inclusion_yield": {
+    "numerator": 6,
+    "denominator": 14,
+    "value": 0.42857142857142855,
+    "display": "42.9%"
+  },
+  "analyst_identified_family_groups": 11,
+  "includable_candidate_family_groups": 4,
+  "excluded_family_groups": 7,
+  "provisional_analyst_family_inclusion_yield": {
+    "numerator": 4,
+    "denominator": 11,
+    "value": 0.36363636363636365,
+    "display": "36.4%"
+  },
+  "top20_adjudicated_including_existing_gold": 16,
+  "top20_records": 20,
+  "positive_adjudicated_including_existing_gold": 8,
+  "positive_adjudicated_fraction": "8/16",
+  "pending_full_text_publications": [
+    "IN202511109936A",
+    "IN201931009978A",
+    "IN202241014106A",
+    "KZ6216U"
+  ],
+  "precision_at_20": null,
+  "precision_at_20_status": "N/A pending four full-text adjudications",
+  "record_precision_at_20_lower_bound": {
+    "numerator": 8,
+    "denominator": 20,
+    "value": 0.4
+  },
+  "record_precision_at_20_upper_bound": {
+    "numerator": 12,
+    "denominator": 20,
+    "value": 0.6
+  },
+  "completed_top20_report_inclusion_yield": null,
+  "net_new_relevant_family_yield": null,
+  "analyst_minutes": null,
+  "family_group_label": "newly adjudicated includable candidate families",
+  "family_group_basis": "Analyst-stated relationships; all three pairs have different Questel IDs; source records retained",
+  "positive_existing_gold_basis": "Two frozen M+ GOLD records counted as positive as instructed; not new Include Yes adjudications",
+  "identity_validation": "All supplied publications matched to top20 as a set; exact ranks 6/7 assignment awaits private mapping",
+  "promotion_decision": "None"
+}

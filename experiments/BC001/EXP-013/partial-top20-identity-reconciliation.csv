@@ -1,0 +1,21 @@
+v1_rank,record_id,candidate_publications,questel_family_ids,source_export_rows,match_method,mapping_status,existing_gold_publication,gold_mapping_basis
+1,BC001-0A3054B25A9B,CN107578493A,78461447,249,Exact title/abstract after removal of leading publication prefix and trim,UNIQUE_CONTENT_MATCH,,
+2,BC001-9B3BD8859C72,CN107421388A,77960947,648,Exact title/abstract after removal of leading publication prefix and trim,UNIQUE_CONTENT_MATCH,,
+3,BC001-234167E357A2,CN110822986A,87709259,466,Exact title/abstract after removal of leading publication prefix and trim,UNIQUE_CONTENT_MATCH,,
+4,BC001-5AB0C6231159,CN210718818U,89160010,292,Exact title/abstract after removal of leading publication prefix and trim,UNIQUE_CONTENT_MATCH,,
+5,BC001-70E9C36BB296,CN206862203U,78341494,408,Exact title/abstract after removal of leading publication prefix and trim,UNIQUE_CONTENT_MATCH,,
+6,BC001-C3791D5EE3E9,US9891030B1;US9470485B1,78745238;74453517,1043;1064,Exact title/abstract after removal of leading publication prefix and trim,EXACT_RECORD_ASSIGNMENT_PENDING_PRIVATE_MAPPING,,
+7,BC001-D3C36118E9E6,US9891030B1;US9470485B1,78745238;74453517,1043;1064,Exact title/abstract after removal of leading publication prefix and trim,EXACT_RECORD_ASSIGNMENT_PENDING_PRIVATE_MAPPING,,
+8,BC001-915BDE3552D6,US20040099134A1,43393533,227,Exact title/abstract after removal of leading publication prefix and trim,UNIQUE_CONTENT_MATCH,,
+9,BC001-5E0CE61B9F95,CN107764127A,78965882,372,Exact title/abstract after removal of leading publication prefix and trim,UNIQUE_CONTENT_MATCH,,
+10,BC001-D9937732CD71,CN207662266U,80722199,400,Exact title/abstract after removal of leading publication prefix and trim,UNIQUE_CONTENT_MATCH,,
+11,BC001-BD70517802F2,CN207144670U,79213611,20,Exact title/abstract after removal of leading publication prefix and trim,UNIQUE_CONTENT_MATCH,,
+12,BC001-4A411F49C18E,IN202511109936A,117261580,627,Exact title/abstract after removal of leading publication prefix and trim,UNIQUE_CONTENT_MATCH,,
+13,BC001-3321FBA07341,IN201931009978A,88102343,974,Exact title/abstract after removal of leading publication prefix and trim,UNIQUE_CONTENT_MATCH,,
+14,BC001-B5BE2EF6266D,US20160054081A1,72266844,174,Exact title/abstract after removal of leading publication prefix and trim,UNIQUE_CONTENT_MATCH,,
+15,BC001-7B265B30DE83,US20180031345A1,78611350,143,Exact title/abstract after removal of leading publication prefix and trim,UNIQUE_CONTENT_MATCH,US10107579B2,Source family publication details and frozen GOLD-10
+16,BC001-0031124B24F1,TR2023006305U5,108860668,207,Exact title/abstract after removal of leading publication prefix and trim,UNIQUE_CONTENT_MATCH,,
+17,BC001-91D38DDF387D,US10591237B1,87877222,43,Exact title/abstract after removal of leading publication prefix and trim,UNIQUE_CONTENT_MATCH,US10591237B1,Source family publication details and frozen GOLD-10
+18,BC001-62F8F4E8D123,IN202241014106A,106662515,998,Exact title/abstract after removal of leading publication prefix and trim,UNIQUE_CONTENT_MATCH,,
+19,BC001-933E6016FD63,KZ6216U,119282218,2604,Exact title/abstract after removal of leading publication prefix and trim,UNIQUE_CONTENT_MATCH,,
+20,BC001-769FDE70434C,WO0186376A2,1546008,265,Exact title/abstract after removal of leading publication prefix and trim,UNIQUE_CONTENT_MATCH,,

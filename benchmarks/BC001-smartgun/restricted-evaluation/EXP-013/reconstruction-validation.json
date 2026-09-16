@@ -1,0 +1,20 @@
+{
+  "validation": "PASS",
+  "source_rows": 3238,
+  "blind_records": 3238,
+  "ranked_records": 3238,
+  "source_rows_covered": 3238,
+  "mapping_status_counts": {
+    "exact": 3215,
+    "ambiguous-identical-content": 23
+  },
+  "content_groups": 3226,
+  "ambiguous_group_cardinalities_valid": true,
+  "top20_records": 20,
+  "new_adjudications": 18,
+  "existing_gold_records": 2,
+  "expected_counts_match": true,
+  "initial_14_labels_decisions_reasons_preserved": true,
+  "ranking_reused_not_rerun": true,
+  "original_key_available": false
+}
