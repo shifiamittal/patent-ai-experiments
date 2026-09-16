@@ -1,0 +1,21 @@
+orbit_rank,representative_publication,questel_fan_id,title,existing_analyst_label,include_in_report,judgment_source,judgment_basis,analyst_report_group_id,overlap_v1_top20,overlap_basis,adjudication_status,gold_matches,additional_judged_matches,hard_negative_matches,exp011_validated_matches,exp013_adjudication_matches,reconstructed_record_ids,reconstruction_mapping_status,source_export_row,source_family_publication_details
+1,CN221269962U,110515103,Fingerprint unlocking electric welding machine based on fingerprint module,,,,,,No,,unresolved,,,,,,BC001-77135D348A02,exact,2,CN221269962U
+2,CN122687837A,120306008,Gun trigger locking fingerprint lock and control method,,,,,,No,,unresolved,,,,,,BC001-DA1021F1705A,exact,3,CN122687837A
+3,US20080024272A1,44146304,Biometric authentication lock machine,,,,,,No,,unresolved,,,,,,BC001-0FA350B70D37,exact,4,US20080024272A1
+4,WO2021194584A2,94738062,Firearm authentication and tracking system,H,Yes,benchmarks/BC001-smartgun/ground-truth/gold10.csv: publication=US11792283B2; docs/canonical-current-state-2026-09-16.md: GOLD-10 historical report set and EXP-011 analyst validation,Reuse existing GOLD/report inclusion at family level; frozen export family details explicitly list US11792283B2; not a new representative-specific full-text judgment,US11792283B2,No,,resolved,US11792283B2,,,US11792283B2,,BC001-11EE61D254C5,exact,5,US20210185138A1;US11178241B2;WO2021194584A2;WO2021194584A3;CA3162331A1;BR112022011894A0;BR112022011894A2;EP4078070A2;EP4078070A4;MX2022007526A;US20220070268A1;US11792283B2;US20240364792A1
+5,CN205140045U,72590488,Stack fingerprint lock monitoring device,,,,,,No,,unresolved,,,,,,BC001-96314046BAFA,exact,6,CN205140045U
+6,US20180259280A1,81215063,Biometric Firearms Safety System,,,,,,No,,unresolved,,,,,,BC001-C75809888466,exact,7,US20180259280A1;US10126080B2
+7,CN210089498U,87637529,Light safe gun box capable of being unlocked through fingerprints,,,,,,No,,unresolved,,,,,,BC001-3D674C7DD811,exact,8,CN210089498U
+8,CN105374095A,72325176,Gun rack fingerprint lock monitoring device,,,,,,No,,unresolved,,,,,,BC001-1DB4510CEF30,exact,9,CN105374095A
+9,CA3214647A1,109703400,Biometric firearm trigger lock with alarm,,,,,,No,,unresolved,,,,,,BC001-773578E9B424,exact,10,US20240159486A1;US12235059B2;CA3214647A1
+10,CN117494375A,108406900,Operation verification system for combat simulation model,,,,,,No,,unresolved,,,,,,BC001-6EB6E94220E1,exact,11,CN117494375A
+11,JP2005207607A,32245703,Firearm device with authenticating function,,,,,,No,,unresolved,,,,,,BC001-2A0D3C9F497D,exact,12,JP2005207607A
+12,US20030023855A1,43949303,High security storage unit and biometric entry system,,,,,,No,,unresolved,,,,,,BC001-79D9C4C8D281,exact,13,US20030023855A1;US20030141959A1
+13,CN120134973A,114891618,Fingerprint lock charging gun,,,,,,No,,unresolved,,,,,,BC001-7AA7A15FBDCB,exact,14,CN120134973A
+14,US12292248B1,114390611,Biometric firearm chamber lock,,,,,,No,,unresolved,,,,,,BC001-A4DF24F1D51D,exact,15,US12292248B1
+15,IN201821002803A,78738494,An intelligent fingerprint & voice operated firearm,,,,,,No,,unresolved,,,,,,BC001-1EB69221CE7A,exact,16,IN201821002803A;IN512335B
+16,CN215793221U,98670576,Bluetooth fingerprint lock wire hanging frame,,,,,,No,,unresolved,,,,,,BC001-29ADD3772F0D,exact,17,CN215793221U
+17,CN215064052U,97489703,95-1 automatic rifle with fingerprint lock function,,,,,,No,,unresolved,,,,,,BC001-CCAB1407DBBD,exact,18,CN215064052U
+18,CN103967347A,67169343,The little lock of Split type fingerprint,,,,,,No,,unresolved,,,,,,BC001-417E0B0E241C,exact,19,CN103967347A;CN103967347B
+19,CN207144670U,79213611,54 pistol with electric capacity fingerprint lock,L,No,experiments/BC001/EXP-013/top20-adjudication.csv: publication=CN207144670U,"Existing completed analyst decision, direct publication match",CN207144670U,Yes,Exact representative publication and Questel FAN,resolved,,,,,CN207144670U,BC001-BD70517802F2,exact,20,CN207144670U
+20,CN212562854U,92825546,Fingerprint gun lock with high safety,,,,,,No,,unresolved,,,,,,BC001-82C4534DA48A,exact,21,CN212562854U

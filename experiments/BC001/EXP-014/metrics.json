@@ -1,0 +1,43 @@
+{
+  "experiment": "EXP-014",
+  "status": "AWAITING_ADJUDICATION",
+  "final_decision": null,
+  "starting_commit": "233ec43ef129ca042a90aa9cea67d5fbaad2bbc9",
+  "v0_top20_slots": 20,
+  "v0_resolved_publications": 2,
+  "v0_unresolved_publications": 18,
+  "v0_known_include_yes": 1,
+  "v0_known_include_no": 1,
+  "v0_identifiable_analyst_report_groups": 2,
+  "v0_known_includable_report_groups": 1,
+  "v0_known_excluded_report_groups": 1,
+  "v0_total_analyst_report_groups": null,
+  "top20_overlap_publications": 1,
+  "top20_overlap_questel_fan_ids": 1,
+  "overlap_publications": [
+    "CN207144670U"
+  ],
+  "known_shared_analyst_report_groups": [
+    "CN207144670U"
+  ],
+  "v0_publication_precision_at_20": null,
+  "v0_family_deduplicated_report_inclusion_yield_at_20": null,
+  "v0_final_includable_unique_report_groups": null,
+  "v1_frozen_includable_unique_report_groups": 7,
+  "v1_frozen_publication_precision_at_20": 0.45,
+  "v1_frozen_family_deduplicated_report_inclusion_yield_at_20": 0.4117647058823529,
+  "analyst_review_minutes": null,
+  "v0_review_minutes": null,
+  "v1_review_minutes": null,
+  "recall_guardrails": {
+    "source": "Frozen existing metrics; no new ranking or experiment execution",
+    "v0_recall_at_50": "2/10",
+    "v1_recall_at_50": "2/10",
+    "recall50_guardrail_pass": true,
+    "v0_recall_at_100": "2/10",
+    "v1_recall_at_100": "4/10",
+    "recall100_guardrail_pass": true
+  },
+  "final_metric_status": "N/A pending all unresolved adjudications and report-family reconciliation",
+  "packet_count": 18
+}
