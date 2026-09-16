@@ -9,7 +9,7 @@ experiment definition and pre-registered rule are in `definition.md`.
 
 ## Frozen source and reconciliation
 
-Orbit ranks 1–20 are the first 20 data rows, without sorting, in the preserved
+Orbit ranks 1â€“20 are the first 20 data rows, without sorting, in the preserved
 RUN-012 Questel export. They are 20 publication slots from the same 3,238-record
 universe as EXP-013. The export's identifier header is `Questel unique family ID
 (FAN)`; FAN values are preserved separately from analyst report-family groups.
@@ -68,7 +68,14 @@ is required to use it. Keep this key out of analyst and future blind-run
 workspaces. The directory is a workflow boundary, not a filesystem ACL.
 
 Google Patents access links are generated from the publication identifiers.
-They are not a claim that full text or translations were fetched or verified.
+All 18 packet URLs were tested by direct HTTP GET on 2026-09-16. Sixteen
+returned HTTP 200 with the publication identifier and description/claims
+sections present. IN201821002803A and CN122687837A returned HTTP 404; their
+`link_status` says "Search publication number in Orbit". Original URLs and
+packet order are preserved. This access check does not assess relevance,
+translation quality, or evidence sufficiency. Initial browsing-tool errors
+were resolved by direct requests; only actual HTTP 404 responses are marked
+unavailable.
 The packet requests one total active-review time excluding document-access
 delays. Frozen V1 review minutes remain unavailable; the new packet's time
 must not be misrepresented as a matched V0/V1 timing comparison.
@@ -86,9 +93,9 @@ and reconciliation may the pre-registered rule be evaluated.
 `metrics.json` uses null for unavailable values (display as N/A), not zero.
 The registry's Decision cell carries the workflow status AWAITING_ADJUDICATION;
 it is not a PROMOTE/REJECT/HOLD result. No prior EXP-013 result or decision is
-changed. Frozen ground truth, F1–F8, rankings, CURRENT_SYSTEM.yaml, and all
+changed. Frozen ground truth, F1â€“F8, rankings, CURRENT_SYSTEM.yaml, and all
 previous experiment artifacts remain intact.
 
 No blocking identity/data issue was found for setup. Analyst responses and
-family reconciliation remain necessary for final evaluation. Access to linked
-documents has not been tested.
+family reconciliation remain necessary for final evaluation. Public-link access results are recorded in the packet; the two unavailable
+links require an Orbit publication-number search. Orbit access was not tested.
