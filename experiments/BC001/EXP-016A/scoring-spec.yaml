@@ -1,0 +1,91 @@
+{
+  "experiment": "EXP-016A",
+  "status": "approved challenger hypothesis, not analyst truth",
+  "authority": "user-supplied 2026-09-17 specification; authoritative-request.txt",
+  "input_sha256": "3a2fd18a328cbd575d1cedd05017ce3bfef2c88c3afe15e145a861fa87dba508",
+  "feature_multipliers": {
+    "E": 1,
+    "I": 0.35,
+    "A": 0
+  },
+  "relationship_multipliers": {
+    "E": 1,
+    "I": 0.25,
+    "C": 0,
+    "A": 0
+  },
+  "domain_points": {
+    "firearm": 10,
+    "attached_firing_control": 8,
+    "incidental_or_ambiguous": 2,
+    "wrong_domain": 0
+  },
+  "weights": {
+    "F2": 12,
+    "F3": 16,
+    "F4": 14,
+    "F5": 10,
+    "F2_to_F3": 14,
+    "F4_to_F3": 10,
+    "F5_to_F6": 4,
+    "multi_primary": 4,
+    "F6": 4,
+    "F7": 1,
+    "F8": 1
+  },
+  "hard_caps": {
+    "non_firearm_gun": 5,
+    "storage_only": 15,
+    "holster_only": 20,
+    "incidental_firearm": 20
+  },
+  "penalties": {
+    "generic_without_mechanism": 8,
+    "targeting_dominates": 10,
+    "generic_biometric_lock": 20
+  },
+  "multi_primary": {
+    "four_established_at_least_three_explicit": 4,
+    "at_least_three_established_at_least_two_explicit_otherwise": 2,
+    "otherwise": 0
+  },
+  "formula": "min(hard_cap, max(0, min(100, round(raw_score - penalty_points, 1))))",
+  "rounding": "decimal ROUND_HALF_UP (unspecified half-tie convention made explicit before execution)",
+  "tie_breakers": [
+    "final_score desc",
+    "explicit_primary_relationships desc",
+    "explicit_primary_features desc",
+    "F3 E before I before A",
+    "penalty_points asc",
+    "Record ID lexical asc"
+  ],
+  "primary_relationships": [
+    "F2_to_F3",
+    "F4_to_F3"
+  ],
+  "bands": {
+    "H": [
+      75,
+      100
+    ],
+    "M+": [
+      55,
+      74.9
+    ],
+    "M": [
+      30,
+      54.9
+    ],
+    "L": [
+      10,
+      29.9
+    ],
+    "N": [
+      0,
+      9.9
+    ]
+  },
+  "evidence": "All E/I require verbatim title/abstract excerpts; all I require reasoning; unsupported evidence becomes A.",
+  "tracking_only": "force F4=A and F4_to_F3=0",
+  "approved_scoring_text": "EVIDENCE MULTIPLIERS\n\nFeature evidence:\n- Explicit: 1.00\n- Inferred with quoted textual basis and reasoning: 0.35\n- Absent/not established: 0\n\nRelationship evidence:\n- Explicit causal relationship: 1.00\n- Reasonably inferred relationship with quoted basis: 0.25\n- Mere co-occurrence: 0\n- Absent/not established: 0\n\nEvery E or I must contain a supporting title/abstract excerpt.\nAn unsupported I must be converted to A.\n\nSCORING WEIGHTS\n\nDomain match:\nMaximum 10\n\n- 10: firearm itself is the controlled system\n- 8: firearm-attached mechanism directly controls firing\n- 2: firearm relationship is incidental or ambiguous\n- 0: wrong domain\n\nF2:\nMaximum 12\n\nF3:\nMaximum 16\n\nF4:\nMaximum 14\n\nF5:\nMaximum 10\n\nF2→F3 relationship:\nMaximum 14\n\nDefinition:\nThe authentication result directly controls firearm locking, unlocking,\nenablement, disablement or discharge prevention.\n\nF4→F3 relationship:\nMaximum 10\n\nDefinition:\nA geographic location or boundary directly controls firearm operation,\nfiring, locking or disabling.\n\nF5→F6 relationship:\nMaximum 4\n\nDefinition:\nFirearm usage/event/tracking data is transmitted to a centralized server,\nmanagement system, database or external reporting destination.\n\nMulti-primary coverage:\nMaximum 4\n\n- 0: fewer than three established F2–F5 features\n- 2: three established primary features, with at least two explicit\n- 4: all four primary features, with at least three explicit\n\nWeak inferences alone cannot qualify.\n\nF6:\nMaximum 4\n\nF7:\nMaximum 1\n\nF8:\nMaximum 1\n\nMaximum score before penalties:\n100\n\nCALCULATION\n\nFor F2–F8:\n\nfeature_points =\nmaximum feature weight × applicable feature evidence multiplier\n\nFor relationships:\n\nrelationship_points =\nmaximum relationship weight × applicable relationship multiplier\n\nraw_score =\n    domain_points\n  + F2_points\n  + F3_points\n  + F4_points\n  + F5_points\n  + F2_to_F3_points\n  + F4_to_F3_points\n  + F5_to_F6_points\n  + multi_primary_points\n  + F6_points\n  + F7_points\n  + F8_points\n\npenalized_score =\nraw_score - applicable noise penalties\n\nfinal_score =\nminimum(\n  applicable hard cap,\n  maximum(0, minimum(100, round(penalized_score, 1)))\n)\n\nIf no cap applies, applicable hard cap is 100.\n\nHARD GATES AND CAPS\n\n1. Welding gun, spray gun, nail gun, toy gun or another non-firearm\n   meaning:\n   final score cap = 5\n\n2. Safe, cabinet, case, rack or storage access only, without control of\n   the firearm itself:\n   final score cap = 15\n\n3. Holster or casing authentication without control of firearm\n   operability:\n   final score cap = 20\n\n4. Firearm appears only as an incidental example:\n   final score cap = 20\n\nIf multiple caps apply, use the strictest cap.\n\nPENALTIES\n\n- Generic “safety,” “monitoring,” “smart” or “authentication” without a\n  stated technical mechanism:\n  minus 8\n\n- Friend/foe targeting, AI aiming or automatic target-selection content\n  dominates the disclosure:\n  minus 10\n\n- Generic biometric lock with only incidental firearm language:\n  minus 20\n\n- GPS or location tracking without location-dependent operational control:\n  F4 must be A and F4→F3 must be zero\n\n- Feature or relationship with no supporting title/abstract excerpt:\n  force it to A/zero\n\nDo not award F4 for location tracking alone.\n\nTIE-BREAKERS\n\nSort by:\n\n1. final score descending\n2. number of explicit primary relationships descending\n3. number of explicit F2–F5 features descending\n4. F3 evidence strength: E before I before A\n5. total penalty points ascending\n6. Record ID lexical order only as a final deterministic tie-breaker\n\nRecord ID must never influence feature extraction or score.\n\nPREDICTED RELEVANCE BANDS\n\nFor output comparability only:\n\n- H: 75–100\n- M+: 55–74.9\n- M: 30–54.9\n- L: 10–29.9\n- N: 0–9.9\n\nThese are model predictions, not analyst ground truth.\n\nBLIND RANKING OUTPUT\n\nFor every one of the 3,238 records preserve:\n\n- Record ID\n- title\n- abstract\n- domain category and supporting excerpt\n- F2–F8 E/I/A\n- supporting excerpt for every E/I\n- inference reasoning for every I\n- F2→F3 status and evidence\n- F4→F3 status and evidence\n- F5→F6 status and evidence\n- multi-primary status\n- noise flags\n- hard cap\n- penalty points\n- points for every scoring dimension\n- raw score\n- final score\n- predicted relevance\n- final rank\n\nFinal score must be calculated through code from the structured fields.\nThe model must not directly override the formula.\n\nVALIDATION BEFORE UNBLINDING\n\nVerify:\n\n- exactly 3,238 rows\n- exactly 3,238 unique Record IDs\n- every input Record ID exactly once\n- no unknown Record ID\n- sequential ranks 1–3,238\n- all scores between 0 and 100\n- every E/I has evidence\n- every I has reasoning\n- F4 is not awarded for tracking alone\n- deterministic tie-breaking\n\nFreeze and hash the completed ranking before reading any private\nevaluation artifact.\n\n"
+}

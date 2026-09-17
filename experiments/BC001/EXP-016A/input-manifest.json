@@ -1,0 +1,13 @@
+{
+  "path": "experiments/BC001/EXP-013/working-artifacts/input.json",
+  "sha256": "3a2fd18a328cbd575d1cedd05017ce3bfef2c88c3afe15e145a861fa87dba508",
+  "rows": 3238,
+  "unique_record_ids": 3238,
+  "columns": [
+    "Record ID",
+    "Title",
+    "Abstract"
+  ],
+  "source_baseline_commit": "37123c707b095757844d632c5b5cfd1b3a61239e",
+  "transformations": "none; preserve 1818 placeholders, do not treat as evidence"
+}

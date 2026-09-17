@@ -1,0 +1,1053 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EXP-016A content-only extraction",
+  "type": "object",
+  "required": [
+    "domain_category",
+    "domain_evidence",
+    "features",
+    "relationships",
+    "noise_flags",
+    "gate_evidence",
+    "penalty_evidence",
+    "tracking_only"
+  ],
+  "properties": {
+    "domain_category": {
+      "enum": [
+        "firearm",
+        "attached_firing_control",
+        "incidental_or_ambiguous",
+        "wrong_domain"
+      ]
+    },
+    "domain_evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status",
+        "source",
+        "excerpt",
+        "reasoning"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "E",
+            "I",
+            "A"
+          ]
+        },
+        "source": {
+          "enum": [
+            "title",
+            "abstract",
+            ""
+          ]
+        },
+        "excerpt": {
+          "type": "string"
+        },
+        "reasoning": {
+          "type": "string"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "E",
+                  "I"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "excerpt": {
+                "minLength": 1
+              },
+              "source": {
+                "enum": [
+                  "title",
+                  "abstract"
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "I"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "reasoning": {
+                "minLength": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    "features": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "F2",
+        "F3",
+        "F4",
+        "F5",
+        "F6",
+        "F7",
+        "F8"
+      ],
+      "properties": {
+        "F2": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "source",
+            "excerpt",
+            "reasoning"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "E",
+                "I",
+                "A"
+              ]
+            },
+            "source": {
+              "enum": [
+                "title",
+                "abstract",
+                ""
+              ]
+            },
+            "excerpt": {
+              "type": "string"
+            },
+            "reasoning": {
+              "type": "string"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "E",
+                      "I"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "excerpt": {
+                    "minLength": 1
+                  },
+                  "source": {
+                    "enum": [
+                      "title",
+                      "abstract"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "I"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "reasoning": {
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "F3": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "source",
+            "excerpt",
+            "reasoning"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "E",
+                "I",
+                "A"
+              ]
+            },
+            "source": {
+              "enum": [
+                "title",
+                "abstract",
+                ""
+              ]
+            },
+            "excerpt": {
+              "type": "string"
+            },
+            "reasoning": {
+              "type": "string"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "E",
+                      "I"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "excerpt": {
+                    "minLength": 1
+                  },
+                  "source": {
+                    "enum": [
+                      "title",
+                      "abstract"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "I"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "reasoning": {
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "F4": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "source",
+            "excerpt",
+            "reasoning"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "E",
+                "I",
+                "A"
+              ]
+            },
+            "source": {
+              "enum": [
+                "title",
+                "abstract",
+                ""
+              ]
+            },
+            "excerpt": {
+              "type": "string"
+            },
+            "reasoning": {
+              "type": "string"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "E",
+                      "I"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "excerpt": {
+                    "minLength": 1
+                  },
+                  "source": {
+                    "enum": [
+                      "title",
+                      "abstract"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "I"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "reasoning": {
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "F5": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "source",
+            "excerpt",
+            "reasoning"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "E",
+                "I",
+                "A"
+              ]
+            },
+            "source": {
+              "enum": [
+                "title",
+                "abstract",
+                ""
+              ]
+            },
+            "excerpt": {
+              "type": "string"
+            },
+            "reasoning": {
+              "type": "string"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "E",
+                      "I"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "excerpt": {
+                    "minLength": 1
+                  },
+                  "source": {
+                    "enum": [
+                      "title",
+                      "abstract"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "I"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "reasoning": {
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "F6": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "source",
+            "excerpt",
+            "reasoning"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "E",
+                "I",
+                "A"
+              ]
+            },
+            "source": {
+              "enum": [
+                "title",
+                "abstract",
+                ""
+              ]
+            },
+            "excerpt": {
+              "type": "string"
+            },
+            "reasoning": {
+              "type": "string"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "E",
+                      "I"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "excerpt": {
+                    "minLength": 1
+                  },
+                  "source": {
+                    "enum": [
+                      "title",
+                      "abstract"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "I"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "reasoning": {
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "F7": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "source",
+            "excerpt",
+            "reasoning"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "E",
+                "I",
+                "A"
+              ]
+            },
+            "source": {
+              "enum": [
+                "title",
+                "abstract",
+                ""
+              ]
+            },
+            "excerpt": {
+              "type": "string"
+            },
+            "reasoning": {
+              "type": "string"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "E",
+                      "I"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "excerpt": {
+                    "minLength": 1
+                  },
+                  "source": {
+                    "enum": [
+                      "title",
+                      "abstract"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "I"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "reasoning": {
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "F8": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "source",
+            "excerpt",
+            "reasoning"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "E",
+                "I",
+                "A"
+              ]
+            },
+            "source": {
+              "enum": [
+                "title",
+                "abstract",
+                ""
+              ]
+            },
+            "excerpt": {
+              "type": "string"
+            },
+            "reasoning": {
+              "type": "string"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "E",
+                      "I"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "excerpt": {
+                    "minLength": 1
+                  },
+                  "source": {
+                    "enum": [
+                      "title",
+                      "abstract"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "I"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "reasoning": {
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "relationships": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "F2_to_F3",
+        "F4_to_F3",
+        "F5_to_F6"
+      ],
+      "properties": {
+        "F2_to_F3": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "source",
+            "excerpt",
+            "reasoning"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "E",
+                "I",
+                "A",
+                "C"
+              ]
+            },
+            "source": {
+              "enum": [
+                "title",
+                "abstract",
+                ""
+              ]
+            },
+            "excerpt": {
+              "type": "string"
+            },
+            "reasoning": {
+              "type": "string"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "E",
+                      "I"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "excerpt": {
+                    "minLength": 1
+                  },
+                  "source": {
+                    "enum": [
+                      "title",
+                      "abstract"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "I"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "reasoning": {
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "F4_to_F3": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "source",
+            "excerpt",
+            "reasoning"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "E",
+                "I",
+                "A",
+                "C"
+              ]
+            },
+            "source": {
+              "enum": [
+                "title",
+                "abstract",
+                ""
+              ]
+            },
+            "excerpt": {
+              "type": "string"
+            },
+            "reasoning": {
+              "type": "string"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "E",
+                      "I"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "excerpt": {
+                    "minLength": 1
+                  },
+                  "source": {
+                    "enum": [
+                      "title",
+                      "abstract"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "I"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "reasoning": {
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "F5_to_F6": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "status",
+            "source",
+            "excerpt",
+            "reasoning"
+          ],
+          "properties": {
+            "status": {
+              "enum": [
+                "E",
+                "I",
+                "A",
+                "C"
+              ]
+            },
+            "source": {
+              "enum": [
+                "title",
+                "abstract",
+                ""
+              ]
+            },
+            "excerpt": {
+              "type": "string"
+            },
+            "reasoning": {
+              "type": "string"
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "enum": [
+                      "E",
+                      "I"
+                    ]
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "excerpt": {
+                    "minLength": 1
+                  },
+                  "source": {
+                    "enum": [
+                      "title",
+                      "abstract"
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "if": {
+                "properties": {
+                  "status": {
+                    "const": "I"
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "reasoning": {
+                    "minLength": 1
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "noise_flags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "non_firearm_gun",
+          "storage_only",
+          "holster_only",
+          "incidental_firearm",
+          "generic_without_mechanism",
+          "targeting_dominates",
+          "generic_biometric_lock"
+        ]
+      }
+    },
+    "gate_evidence": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "status",
+          "source",
+          "excerpt",
+          "reasoning"
+        ],
+        "properties": {
+          "status": {
+            "enum": [
+              "E",
+              "I",
+              "A"
+            ]
+          },
+          "source": {
+            "enum": [
+              "title",
+              "abstract",
+              ""
+            ]
+          },
+          "excerpt": {
+            "type": "string"
+          },
+          "reasoning": {
+            "type": "string"
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "status": {
+                  "enum": [
+                    "E",
+                    "I"
+                  ]
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "excerpt": {
+                  "minLength": 1
+                },
+                "source": {
+                  "enum": [
+                    "title",
+                    "abstract"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "status": {
+                  "const": "I"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "reasoning": {
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "penalty_evidence": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "status",
+          "source",
+          "excerpt",
+          "reasoning"
+        ],
+        "properties": {
+          "status": {
+            "enum": [
+              "E",
+              "I",
+              "A"
+            ]
+          },
+          "source": {
+            "enum": [
+              "title",
+              "abstract",
+              ""
+            ]
+          },
+          "excerpt": {
+            "type": "string"
+          },
+          "reasoning": {
+            "type": "string"
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "status": {
+                  "enum": [
+                    "E",
+                    "I"
+                  ]
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "excerpt": {
+                  "minLength": 1
+                },
+                "source": {
+                  "enum": [
+                    "title",
+                    "abstract"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "status": {
+                  "const": "I"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "reasoning": {
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tracking_only": {
+      "type": "boolean"
+    }
+  }
+}

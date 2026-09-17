@@ -1,0 +1,96 @@
+{
+  "status": "PASS",
+  "checks": {
+    "row_count": true,
+    "unique_ids": true,
+    "exact_coverage": true,
+    "no_unknown_ids": true,
+    "sequential_ranks": true,
+    "bounded_scores": true,
+    "deterministic_order": true,
+    "evidence_supported": true,
+    "inferences_reasoned": true,
+    "no_tracking_only_F4": true,
+    "formula_recomputed": true,
+    "content_preserved": true,
+    "shuffled_input_identical_ranking": true
+  },
+  "record_count": 3238,
+  "input_sha256": "3a2fd18a328cbd575d1cedd05017ce3bfef2c88c3afe15e145a861fa87dba508",
+  "ranking_sha256": "3c9d95c4fce15f2794585637b2963893c437c9487b944d31070170ee1edbde4d",
+  "output_hashes": {
+    "full-ranking.csv": "3c9d95c4fce15f2794585637b2963893c437c9487b944d31070170ee1edbde4d",
+    "structured-feature-extraction.csv": "60a0ef01a03e6f4cceb129da869dd8179e6b894f8faee1025d49d2b27b387eae",
+    "top-100-evidence.csv": "03bea35bdddfb9f86a1c2b3e24f5e493c61ee9a95f7b88d13a97bde7ad7bbf24"
+  },
+  "allowlisted_input_hashes": {
+    "extraction-schema.json": "af85f537d506ba095ae2f1bdcc6af8f0b056f6430a4f040b73dab5e28bb974b0",
+    "frozen-disclosure.md": "ab288c46763311f9794a20236e906c99b26891283a5cb76949c75d7b21cd0ade",
+    "input.json": "3a2fd18a328cbd575d1cedd05017ce3bfef2c88c3afe15e145a861fa87dba508",
+    "run_blind.py": "86d7b318b0d592b18991f180c5595c5140c2eff543880fefcbec93175d07a3c9",
+    "scorer.py": "735839bddb6c1dc6b6f1dbde1a3e0cb41b74e0cc126dc66bb0c9459e4532bd6a",
+    "scoring-spec.yaml": "a576cb7df984bd7e9d2a9281ab8b82ffdbae80b6689df53ffa3009bbe5cb28f2"
+  },
+  "accessed_paths": [
+    "extraction-schema.json",
+    "frozen-disclosure.md",
+    "input.json",
+    "outputs/full-ranking.csv",
+    "outputs/structured-feature-extraction.csv",
+    "outputs/top-100-evidence.csv",
+    "run_blind.py",
+    "scorer.py",
+    "scoring-spec.yaml"
+  ],
+  "started_at": "2026-09-17T17:58:12.356933+00:00",
+  "frozen_at": "2026-09-17T17:58:29.367987+00:00",
+  "extraction_method": "deterministic content rules; no record-specific overrides",
+  "model_identifier": "N/A (no model inference during execution)",
+  "implementation_author_model": "GPT-6 (system-provided family; exact deployment identifier N/A)",
+  "runtime": "3.12.14",
+  "platform": "win32",
+  "temperature": "N/A",
+  "determinism": "fixed rules, Decimal ROUND_HALF_UP, total lexical tie-break",
+  "batch_size": 3238,
+  "token_usage": "N/A",
+  "API_cost": "N/A",
+  "retries": 0,
+  "failed_batches": 0,
+  "feature_counts": {
+    "F2": {
+      "E": 223,
+      "I": 16,
+      "A": 2999
+    },
+    "F3": {
+      "E": 66,
+      "I": 36,
+      "A": 3136
+    },
+    "F4": {
+      "E": 3,
+      "I": 0,
+      "A": 3235
+    },
+    "F5": {
+      "E": 158,
+      "I": 22,
+      "A": 3058
+    },
+    "F6": {
+      "E": 98,
+      "I": 0,
+      "A": 3140
+    },
+    "F7": {
+      "E": 1,
+      "I": 0,
+      "A": 3237
+    },
+    "F8": {
+      "E": 0,
+      "I": 0,
+      "A": 3238
+    }
+  }
+}

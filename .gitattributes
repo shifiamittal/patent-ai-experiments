@@ -1,0 +1,3 @@
+# Preserve EXP-016A content hashes across Windows and Unix checkouts.
+components/relevance-scorer/rs_v0.3_feature_aware_ta/** -text whitespace=cr-at-eol
+experiments/BC001/EXP-016A/** -text whitespace=cr-at-eol,-blank-at-eof
