@@ -1,0 +1,42 @@
+{
+  "experiment": "EXP-016A",
+  "ranking_sha256": "3c9d95c4fce15f2794585637b2963893c437c9487b944d31070170ee1edbde4d",
+  "gold_denominator": 10,
+  "retrieved_gold_families": 6,
+  "recall_at_20": {
+    "hits": 1,
+    "denominator": 10,
+    "value": 0.1
+  },
+  "recall_at_50": {
+    "hits": 2,
+    "denominator": 10,
+    "value": 0.2
+  },
+  "recall_at_100": {
+    "hits": 3,
+    "denominator": 10,
+    "value": 0.3
+  },
+  "recall_at_200": {
+    "hits": 3,
+    "denominator": 10,
+    "value": 0.3
+  },
+  "median_rank_retrieved_gold": 142.5,
+  "decision": "REJECT",
+  "decision_reasons": [
+    "early-recall guardrail failed",
+    "median rank worsened by more than 10%"
+  ],
+  "no_identity_gold_prior_rank_leakage": true,
+  "exactly_once_coverage": true,
+  "reproducibility": "deterministic; shuffled-input rerun identical",
+  "mapping_provenance": "post-experiment reconstruction; all six GOLD mappings exact; original private key unavailable",
+  "not_retrieved_gold": [
+    "US10996012B2",
+    "US20170160030A1",
+    "US20170248383A1",
+    "US6415542B1"
+  ]
+}

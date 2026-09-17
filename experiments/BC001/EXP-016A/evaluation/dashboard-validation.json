@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "preexisting_cells_values_formulas_styles_verified": 5744,
+  "sheet_names_tables_and_validations_preserved": true,
+  "existing_row_column_dimensions_preserved": true,
+  "experiment_row": 19,
+  "component_challenger_row": 9,
+  "dashboard_result_range": "A86:H99",
+  "new_metric_cached_values_verified": true,
+  "rendered_views": [
+    "Dashboard",
+    "Experiment Log",
+    "Component Versions"
+  ]
+}

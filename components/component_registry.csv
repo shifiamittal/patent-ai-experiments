@@ -1,0 +1,2 @@
+component,version,role,experiment,decision,current,champion,implementation
+Relevance Scorer,rs_v0.3_feature_aware_ta,challenger,EXP-016A,REJECT,false,false,components/relevance-scorer/rs_v0.3_feature_aware_ta/

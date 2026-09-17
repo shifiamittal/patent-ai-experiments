@@ -1,0 +1,23 @@
+{
+  "ranking_frozen_at": "2026-09-17T17:58:29.367987+00:00",
+  "first_private_artifact_read_at": "2026-09-17T17:59:30.1894059Z",
+  "evaluation_script_started_at": "2026-09-17T18:00:40.126869+00:00",
+  "implementation_commit": "6f90e9a2e936cd95a78a8394d71586a0a34bf18d",
+  "frozen_hashes_verified_before_private_reads": true,
+  "sources": [
+    {
+      "path": "benchmarks/BC001-smartgun/restricted-evaluation/EXP-013/reconstructed-evaluation-mapping.csv",
+      "sha256": "85b01e21f0c03f2a0f3cf6d7f2fe276307a00b1a6c4cacfa59a5b994cb93ddcd"
+    },
+    {
+      "path": "benchmarks/BC001-smartgun/ground-truth/gold10.csv",
+      "sha256": "8787f3d8c5937d24d9cbe594a0f60437c9c395d72cb00bb1eb84b74f0a1e1d1e"
+    },
+    {
+      "path": "benchmarks/BC001-smartgun/reranking/v1/metrics.json",
+      "sha256": "407d9a7b9fb04a1ad6af4fe5a0b5d49f7db620e176352b56e3f83024acfdb22b"
+    }
+  ],
+  "mapping_ambiguous_rows": 23,
+  "retrieved_gold_mapping_exact_rows": 6
+}

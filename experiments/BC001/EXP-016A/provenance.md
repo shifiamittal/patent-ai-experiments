@@ -59,3 +59,33 @@ missing original key. Its ambiguous candidate sets must be preserved during
 evaluation. No original one-to-one private key is fabricated.
 
 Phase 2 access and output hashes are recorded by the evaluator after the freeze.
+
+## Completed freeze and private evaluation
+
+Frozen at `2026-09-17T17:58:29.367987+00:00`; ranking SHA-256:
+`3c9d95c4fce15f2794585637b2963893c437c9487b944d31070170ee1edbde4d`.
+Implementation/execution commit: `6f90e9a2e936cd95a78a8394d71586a0a34bf18d`.
+Git attributes preserve exact bytes for the new specifications and frozen
+outputs, including deliberate Windows line endings in generated JSON.
+
+The first private artifact read occurred at `2026-09-17T17:59:30.1894059Z`,
+after the freeze and commit. The evaluator verified all output hashes, read the
+reconstructed mapping/GOLD key/canonical V1 metrics, and independently reproduced
+the prior six ranks and comparator metrics. All six GOLD mappings are exact;
+23 ambiguous non-GOLD mappings are not assigned arbitrarily. No source export,
+full text, claims, CPC/IPC, citations or patent web pages were used.
+
+Decision: REJECT. All 18 scorer tests and six evaluator decision-rule tests
+passed. An independent CSV verifier recomputed all 3,238 rows from their fields,
+checked coverage/tie order/excerpts/inference reasoning/caps/penalties and verified
+unchanged frozen hashes. The dashboard was authored with Artifact Tool, rendered,
+and checked against its predecessor: 5,744 preexisting cells retain values,
+formulas and styles; existing sheet names, dimensions, tables and validations
+are preserved. The preexisting dashboard includes unrelated clipped text and
+historical metrics; those were not redesigned or recalculated as new EXP-016A
+results. See the two final validation JSON files in `evaluation/`.
+
+Only new EXP-016A artifacts, its scorer, an appended registry entry, a new
+challenger component registry, the scoped dashboard update, Git byte-preservation
+attributes, and the decision-log entry were changed. The original untracked
+bc001_work, outputs, and patent_sources directories were left untouched.

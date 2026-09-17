@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "independent_rows_verified": 3238,
+  "independent_arithmetic": true,
+  "evidence_and_inference_checks": true,
+  "deterministic_tie_order": true,
+  "frozen_hashes_unchanged": true,
+  "protected_preexisting_files_unchanged": 93,
+  "historical_registry_rows_preserved": true
+}

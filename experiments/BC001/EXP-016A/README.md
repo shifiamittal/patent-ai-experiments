@@ -1,5 +1,9 @@
 # EXP-016A
 
+Result: **REJECT**. Recall@20/50/100/200: **1/10, 2/10, 3/10, 3/10**.
+Median rank of six retrieved GOLD: **142.5** (EXP-013: 90.5).
+The early-recall guardrail and median-rank rejection condition failed.
+
 Feature-aware title/abstract challenger ranking of the unchanged 3,238 RUN-012
 anonymous records. See `experiment-definition.md`, `scoring-spec.yaml`, and
 `provenance.md`. Final ranking and evidence are under `outputs/`; post-freeze
