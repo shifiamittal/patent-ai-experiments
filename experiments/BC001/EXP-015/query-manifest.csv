@@ -1,0 +1,24 @@
+query_id,arm,structure,vocabulary,feature_path,status,normalized_approved_syntax,syntax_provenance,execution_date,observed_fampat_families,export_status
+EXP015-00-Q1,Baseline,current monolithic,current vocabulary,Current monolithic structure; per-query feature path not supplied,NOT RERUN IN THIS SESSION,,Statement not supplied; not generated,N/A,N/A,N/A — NOT EXECUTED IN THIS SESSION
+EXP015-015A-Q1,EXP015-015A,feature-specific,current vocabulary,"F1 + F2, firearm plus authentication",EXECUTED — EXPORT BLOCKED BY VOLUME,"((FIREARM+ OR GUN+ OR WEAPON+ OR PISTOL+ OR HANDGUN+
+  OR RIFLE+ OR ""SMART GUN"")
+ AND
+ (BIOMETRIC+ OR FINGERPRINT+ OR ""FACIAL RECOGNITION""
+  OR ""PALM VEIN"" OR ""HEART RATE"" OR KEYCARD+
+  OR SIGNATURE+ OR IDENTIT+ OR AUTHENTICAT+
+  OR ""AUTHORIZED USER"" OR ""USER IDENTIFICATION"" OR VERIF+))
+/TI/AB/CLMS",User-supplied normalized approved syntax,2026-09-17,23935,NOT PERFORMED — EXCESSIVE VOLUME
+EXP015-015A-Q2,EXP015-015A,feature-specific,current vocabulary,"F1 + F3, firearm plus operational control",EXECUTED — EXPORT BLOCKED BY VOLUME,"((FIREARM+ OR GUN+ OR WEAPON+ OR PISTOL+ OR HANDGUN+
+  OR RIFLE+ OR ""SMART GUN"")
+ AND
+ (LOCK+ OR UNLOCK+ OR DISABLE+ OR ENABLE+
+  OR ""PREVENT DISCHARGE"" OR FIRE+ OR DISCHARG+
+  OR OPERAT+ OR ""RESTRICT USE"" OR INTERLOCK+))
+/TI/AB/CLMS",User-supplied normalized approved syntax,2026-09-17,493993,NOT PERFORMED — EXCESSIVE VOLUME
+EXP015-015A-Q3,EXP015-015A,feature-specific,current vocabulary,"F1 + F4→F3, location-conditioned firearm control",NOT RUN — PAUSED AFTER VOLUME PREFLIGHT,,Statement not supplied; not generated,N/A,N/A,N/A — NOT EXECUTED IN THIS SESSION
+EXP015-015A-Q4,EXP015-015A,feature-specific,current vocabulary,"F1 + F5, firearm tracking/monitoring/data",NOT RUN — PAUSED AFTER VOLUME PREFLIGHT,,Statement not supplied; not generated,N/A,N/A,N/A — NOT EXECUTED IN THIS SESSION
+EXP015-015B-Q1,EXP015-015B,current monolithic,EXP-008 seed-patent terminology,Current monolithic structure; per-query feature path not supplied,NOT RUN — PAUSED AFTER VOLUME PREFLIGHT,,Statement not supplied; not generated,N/A,N/A,N/A — NOT EXECUTED IN THIS SESSION
+EXP015-015C-Q1,EXP015-015C,feature-specific,EXP-008 seed-patent terminology,"F1 + F2, firearm plus authentication",NOT RUN — PAUSED AFTER VOLUME PREFLIGHT,,Statement not supplied; not generated,N/A,N/A,N/A — NOT EXECUTED IN THIS SESSION
+EXP015-015C-Q2,EXP015-015C,feature-specific,EXP-008 seed-patent terminology,"F1 + F3, firearm plus operational control",NOT RUN — PAUSED AFTER VOLUME PREFLIGHT,,Statement not supplied; not generated,N/A,N/A,N/A — NOT EXECUTED IN THIS SESSION
+EXP015-015C-Q3,EXP015-015C,feature-specific,EXP-008 seed-patent terminology,"F1 + F4→F3, location-conditioned firearm control",NOT RUN — PAUSED AFTER VOLUME PREFLIGHT,,Statement not supplied; not generated,N/A,N/A,N/A — NOT EXECUTED IN THIS SESSION
+EXP015-015C-Q4,EXP015-015C,feature-specific,EXP-008 seed-patent terminology,"F1 + F5, firearm tracking/monitoring/data",NOT RUN — PAUSED AFTER VOLUME PREFLIGHT,,Statement not supplied; not generated,N/A,N/A,N/A — NOT EXECUTED IN THIS SESSION

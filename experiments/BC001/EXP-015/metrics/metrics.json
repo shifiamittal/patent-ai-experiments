@@ -1,0 +1,21 @@
+{
+  "experiment_id": "EXP-015",
+  "benchmark_id": "BC001",
+  "benchmark_version": "v0.1-provisional",
+  "status": "HOLD — DESIGN REVISION REQUIRED AFTER VOLUME PREFLIGHT",
+  "final_retrieval_metrics": {
+    "deduplicated_union_size": "N/A",
+    "gold_recovery": "N/A",
+    "incremental_gold": "N/A",
+    "incremental_candidate_families": "N/A",
+    "marginal_gold_per_additional_1000_families": "N/A",
+    "recall_at_50": "N/A",
+    "recall_at_100": "N/A",
+    "precision_at_20": "N/A",
+    "gold_in_top_10": "N/A",
+    "median_rank_of_retrieved_gold": "N/A",
+    "analyst_minutes": "N/A",
+    "model_cost_usd": "N/A"
+  },
+  "reason": "No exports or family-level evaluation; remaining arms paused and same-session baseline not rerun. Counts do not establish overlap, GOLD recovery or incremental yield."
+}

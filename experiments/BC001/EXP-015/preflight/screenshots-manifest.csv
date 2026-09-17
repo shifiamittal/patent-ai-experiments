@@ -1,0 +1,3 @@
+query_id,availability,repository_path,sha256,verification,reported_content,file_count
+EXP015-015A-Q1,Reported to exist outside repository; not supplied to Codex,N/A,N/A,Not independently inspected,Intended title/abstract/claims restrictions applied; result count reported in execution log,N/A — not supplied
+EXP015-015A-Q2,Reported to exist outside repository; not supplied to Codex,N/A,N/A,Not independently inspected,Intended title/abstract/claims restrictions applied; result count reported in execution log,N/A — not supplied
