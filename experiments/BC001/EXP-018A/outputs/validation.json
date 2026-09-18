@@ -1,0 +1,100 @@
+{
+  "status": "PASS",
+  "checks": {
+    "row_count": true,
+    "unique_ids": true,
+    "exact_coverage": true,
+    "no_unknown_ids": true,
+    "sequential_ranks": true,
+    "bounded_scores": true,
+    "deterministic_order": true,
+    "evidence_supported": true,
+    "inferences_reasoned": true,
+    "no_tracking_only_F4": true,
+    "formula_recomputed": true,
+    "content_preserved": true,
+    "shuffled_input_identical_ranking": true
+  },
+  "record_count": 3238,
+  "input_sha256": "3a2fd18a328cbd575d1cedd05017ce3bfef2c88c3afe15e145a861fa87dba508",
+  "ranking_sha256": "10192dcf765c827230b76def815112ec69bc06135c0719c7ed3828e4aa9033e2",
+  "output_hashes": {
+    "full-ranking.csv": "10192dcf765c827230b76def815112ec69bc06135c0719c7ed3828e4aa9033e2",
+    "structured-feature-extraction.csv": "8afd63cc4091152b3967137f6a1e4228786d08e9332d6498ea25164f1ec4a7a0",
+    "top-100-evidence.csv": "f8d546aa3fd5ba87e6832a724703bbe120a7ad9277c19224b4a90921a2c4df66"
+  },
+  "allowlisted_input_hashes": {
+    "bc001_config.py": "1fc2ae07282ec9c3bbf584ca06aaa927ab3fc0701c151674ca6a4a2abe952f29",
+    "engine.py": "54ff5a6e49bbf99c7806241cc7da50d12811bd03ec26e9b831c9bcc469cc81e4",
+    "extraction-schema.json": "af85f537d506ba095ae2f1bdcc6af8f0b056f6430a4f040b73dab5e28bb974b0",
+    "frozen-disclosure.md": "ab288c46763311f9794a20236e906c99b26891283a5cb76949c75d7b21cd0ade",
+    "input.json": "3a2fd18a328cbd575d1cedd05017ce3bfef2c88c3afe15e145a861fa87dba508",
+    "run_blind.py": "2d19ec020126476eb2d9e374a741d52c2c9a307d3573048fc4394cccdeba3da5",
+    "scorer.py": "4623d7ed8152705c39893a9c3676fbf5fc1f00e3455c681fb42483137debaab2",
+    "scoring-spec.yaml": "a576cb7df984bd7e9d2a9281ab8b82ffdbae80b6689df53ffa3009bbe5cb28f2"
+  },
+  "accessed_paths": [
+    "bc001_config.py",
+    "engine.py",
+    "extraction-schema.json",
+    "frozen-disclosure.md",
+    "input.json",
+    "outputs/full-ranking.csv",
+    "outputs/structured-feature-extraction.csv",
+    "outputs/top-100-evidence.csv",
+    "run_blind.py",
+    "scorer.py",
+    "scoring-spec.yaml"
+  ],
+  "started_at": "2026-09-18T12:06:37.424554+00:00",
+  "frozen_at": "2026-09-18T12:06:59.894545+00:00",
+  "extraction_method": "deterministic content rules; no record-specific overrides",
+  "model_identifier": "N/A (no model inference during execution)",
+  "implementation_author_model": "GPT-6 (system-provided family; exact deployment identifier N/A)",
+  "runtime": "3.12.14",
+  "platform": "win32",
+  "temperature": "N/A",
+  "determinism": "fixed rules, Decimal ROUND_HALF_UP, total lexical tie-break",
+  "batch_size": 3238,
+  "token_usage": "N/A",
+  "API_cost": "N/A",
+  "retries": 0,
+  "failed_batches": 0,
+  "feature_counts": {
+    "F2": {
+      "E": 226,
+      "I": 16,
+      "A": 2996
+    },
+    "F3": {
+      "E": 59,
+      "I": 1,
+      "A": 3178
+    },
+    "F4": {
+      "E": 3,
+      "I": 0,
+      "A": 3235
+    },
+    "F5": {
+      "E": 157,
+      "I": 23,
+      "A": 3058
+    },
+    "F6": {
+      "E": 97,
+      "I": 0,
+      "A": 3141
+    },
+    "F7": {
+      "E": 1,
+      "I": 0,
+      "A": 3237
+    },
+    "F8": {
+      "E": 0,
+      "I": 0,
+      "A": 3238
+    }
+  }
+}

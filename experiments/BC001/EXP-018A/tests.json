@@ -1,0 +1,48 @@
+[
+  {
+    "cwd": "components\\relevance-scorer\\rs_v0.4_extraction_gate_repair_ta",
+    "command": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "exit_code": 0,
+    "output": "test_adjective_safe (test_repairs.RepairTests.test_adjective_safe) ... ok\ntest_architecture_inference_without_biometrics (test_repairs.RepairTests.test_architecture_inference_without_biometrics) ... ok\ntest_bare_architecture (test_repairs.RepairTests.test_bare_architecture) ... ok\ntest_cross_sentence_explicit (test_repairs.RepairTests.test_cross_sentence_explicit) ... ok\ntest_cross_sentence_inferred (test_repairs.RepairTests.test_cross_sentence_inferred) ... ok\ntest_dual_system (test_repairs.RepairTests.test_dual_system) ... ok\ntest_extinguishing (test_repairs.RepairTests.test_extinguishing) ... ok\ntest_failed_biometric (test_repairs.RepairTests.test_failed_biometric) ... ok\ntest_failed_identification_preserved (test_repairs.RepairTests.test_failed_identification_preserved) ... ok\ntest_functional_architecture (test_repairs.RepairTests.test_functional_architecture) ... ok\ntest_generic_auth_no_biometric (test_repairs.RepairTests.test_generic_auth_no_biometric) ... ok\ntest_holster_passive_protection (test_repairs.RepairTests.test_holster_passive_protection) ... ok\ntest_holster_trigger_access (test_repairs.RepairTests.test_holster_trigger_access) ... ok\ntest_invalid_noncredential (test_repairs.RepairTests.test_invalid_noncredential) ... ok\ntest_physical_storage (test_repairs.RepairTests.test_physical_storage) ... ok\ntest_success (test_repairs.RepairTests.test_success) ... ok\ntest_unchanged_policy_ast (test_repairs.RepairTests.test_unchanged_policy_ast) ... ok\ntest_unsupported_absent (test_repairs.RepairTests.test_unsupported_absent) ... ok\ntest_all_weights_and_bounds (test_scorer.ScorerTests.test_all_weights_and_bounds) ... ok\ntest_automobile_ignition_translation (test_scorer.ScorerTests.test_automobile_ignition_translation) ... ok\ntest_battery_alert_is_not_central_integration (test_scorer.ScorerTests.test_battery_alert_is_not_central_integration) ... ok\ntest_deterministic_ties_and_id_independence (test_scorer.ScorerTests.test_deterministic_ties_and_id_independence) ... ok\ntest_exactly_once (test_scorer.ScorerTests.test_exactly_once) ... ok\ntest_explicit_relation_outscores_inferred (test_scorer.ScorerTests.test_explicit_relation_outscores_inferred) ... ok\ntest_geofence_causal_control (test_scorer.ScorerTests.test_geofence_causal_control) ... ok\ntest_holster_cap (test_scorer.ScorerTests.test_holster_cap) ... ok\ntest_incidental_machine_example_cap (test_scorer.ScorerTests.test_incidental_machine_example_cap) ... ok\ntest_long_sentence_tracking_is_not_geofencing (test_scorer.ScorerTests.test_long_sentence_tracking_is_not_geofencing) ... ok\ntest_no_F4_for_tracking (test_scorer.ScorerTests.test_no_F4_for_tracking) ... ok\ntest_non_firearm_body_does_not_change_domain (test_scorer.ScorerTests.test_non_firearm_body_does_not_change_domain) ... ok\ntest_non_firearm_caps (test_scorer.ScorerTests.test_non_firearm_caps) ... ok\ntest_storage_cap (test_scorer.ScorerTests.test_storage_cap) ... ok\ntest_storage_mentions_do_not_cap_firing_control (test_scorer.ScorerTests.test_storage_mentions_do_not_cap_firing_control) ... ok\ntest_storage_withdrawal_discharge_is_not_firing (test_scorer.ScorerTests.test_storage_withdrawal_discharge_is_not_firing) ... ok\ntest_strictest_cap_and_additive_penalties (test_scorer.ScorerTests.test_strictest_cap_and_additive_penalties) ... ok\ntest_unsupported_inference_forced_absent (test_scorer.ScorerTests.test_unsupported_inference_forced_absent) ... ok\n\n----------------------------------------------------------------------\nRan 36 tests in 0.070s\n\nOK\n"
+  },
+  {
+    "cwd": "components\\relevance-scorer\\rs_v0.3_feature_aware_ta",
+    "command": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-v"
+    ],
+    "exit_code": 0,
+    "output": "test_all_weights_and_bounds (test_scorer.ScorerTests.test_all_weights_and_bounds) ... ok\ntest_automobile_ignition_translation (test_scorer.ScorerTests.test_automobile_ignition_translation) ... ok\ntest_battery_alert_is_not_central_integration (test_scorer.ScorerTests.test_battery_alert_is_not_central_integration) ... ok\ntest_deterministic_ties_and_id_independence (test_scorer.ScorerTests.test_deterministic_ties_and_id_independence) ... ok\ntest_exactly_once (test_scorer.ScorerTests.test_exactly_once) ... ok\ntest_explicit_relation_outscores_inferred (test_scorer.ScorerTests.test_explicit_relation_outscores_inferred) ... ok\ntest_geofence_causal_control (test_scorer.ScorerTests.test_geofence_causal_control) ... ok\ntest_holster_cap (test_scorer.ScorerTests.test_holster_cap) ... ok\ntest_incidental_machine_example_cap (test_scorer.ScorerTests.test_incidental_machine_example_cap) ... ok\ntest_long_sentence_tracking_is_not_geofencing (test_scorer.ScorerTests.test_long_sentence_tracking_is_not_geofencing) ... ok\ntest_no_F4_for_tracking (test_scorer.ScorerTests.test_no_F4_for_tracking) ... ok\ntest_non_firearm_body_does_not_change_domain (test_scorer.ScorerTests.test_non_firearm_body_does_not_change_domain) ... ok\ntest_non_firearm_caps (test_scorer.ScorerTests.test_non_firearm_caps) ... ok\ntest_storage_cap (test_scorer.ScorerTests.test_storage_cap) ... ok\ntest_storage_mentions_do_not_cap_firing_control (test_scorer.ScorerTests.test_storage_mentions_do_not_cap_firing_control) ... ok\ntest_storage_withdrawal_discharge_is_not_firing (test_scorer.ScorerTests.test_storage_withdrawal_discharge_is_not_firing) ... ok\ntest_strictest_cap_and_additive_penalties (test_scorer.ScorerTests.test_strictest_cap_and_additive_penalties) ... ok\ntest_unsupported_inference_forced_absent (test_scorer.ScorerTests.test_unsupported_inference_forced_absent) ... ok\n\n----------------------------------------------------------------------\nRan 18 tests in 0.026s\n\nOK\n"
+  },
+  {
+    "cwd": ".",
+    "command": [
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "experiments/BC001/EXP-016A/evaluation",
+      "-p",
+      "test_evaluation.py",
+      "-v"
+    ],
+    "exit_code": 0,
+    "output": "test_late_guardrail_blocks_promotion (test_evaluation.DecisionTests.test_late_guardrail_blocks_promotion) ... ok\ntest_leakage_and_coverage (test_evaluation.DecisionTests.test_leakage_and_coverage) ... ok\ntest_promote_either_primary_condition (test_evaluation.DecisionTests.test_promote_either_primary_condition) ... ok\ntest_reject_early_even_with_improvement (test_evaluation.DecisionTests.test_reject_early_even_with_improvement) ... ok\ntest_reject_median_more_than_ten_percent (test_evaluation.DecisionTests.test_reject_median_more_than_ten_percent) ... ok\ntest_reproducibility (test_evaluation.DecisionTests.test_reproducibility) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.000s\n\nOK\n"
+  },
+  {
+    "suite": "EXP-018A decision rules",
+    "exit_code": 0,
+    "output": "test_defect_reject (test_decision.DecisionTests.test_defect_reject) ... ok\ntest_early_reject (test_decision.DecisionTests.test_early_reject) ... ok\ntest_match_hold (test_decision.DecisionTests.test_match_hold) ... ok\ntest_median_reject (test_decision.DecisionTests.test_median_reject) ... ok\ntest_mixed_hold (test_decision.DecisionTests.test_mixed_hold) ... ok\ntest_promote (test_decision.DecisionTests.test_promote) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n"
+  }
+]
