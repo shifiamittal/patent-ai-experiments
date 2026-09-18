@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "tests_passed": 66,
+  "full_ranking_rows": 3238,
+  "ranking_sha256": "10192dcf765c827230b76def815112ec69bc06135c0719c7ed3828e4aa9033e2",
+  "input_sha256": "3a2fd18a328cbd575d1cedd05017ce3bfef2c88c3afe15e145a861fa87dba508",
+  "all_eight_preservation_checks": true,
+  "all_twelve_gold_decompositions_exact": true,
+  "three_deteriorated_before_after_rows": 6,
+  "metrics_independently_reconciled": true,
+  "frozen_code_and_ranking_unchanged_since_first_commit": true,
+  "old_scorer_benchmark_and_experiments_unchanged": true,
+  "only_authorized_preexisting_files_changed": [
+    ".gitattributes",
+    "CURRENT_SYSTEM.yaml",
+    "Patent_AI_Experiment_Dashboard_Canonical.xlsx",
+    "README.md",
+    "components/component_registry.csv",
+    "experiment_registry.csv"
+  ],
+  "dashboard_validation": {
+    "status": "PASS",
+    "preexisting_cells_values_formulas_styles_verified": 6038,
+    "sheet_names_tables_and_validations_preserved": true,
+    "existing_row_column_dimensions_preserved": true,
+    "experiment_row": 21,
+    "component_champion_row": 10,
+    "dashboard_result_range": "A123:H138",
+    "new_metric_cached_values_verified": true,
+    "rendered_views": [
+      "Dashboard",
+      "Experiment Log",
+      "Component Versions"
+    ]
+  },
+  "evaluation_file_hashes": {
+    "access-provenance.json": "899bb42270cf03666d3b57768037ad927e2407518dc052cb40f2384a668446ed",
+    "affected-records.csv": "25bd39312cd189218932b4cbef1dc485ff96b8a2836003f4d9a7665719cad883",
+    "correction-impact.csv": "06fd8a7c78d50103de58d24d17dce3dba6c90b558f862e6c747a2b198ed6526e",
+    "dashboard-row.json": "e9bb43ed93133595fabfa0ac05b8f596bb58e3b88d8c4da106526392f276c65e",
+    "dashboard-validation.json": "6e7b3c87151b0215e374d5ee4c3c06090f6cd446629ca1d35626fdca93a9f48b",
+    "diagnostic-comparison.md": "094fe16226687df5225d529dd21e4abd90d70d449e4fe5db2132f4a2164df68a",
+    "evaluation.md": "0e8295b6449f6a4f9245e9956849d8e3b73ef7291107d9be8dbcc4d022c75147",
+    "gold-rank-movements.csv": "67844034a58294c2a4787c93739f2aafaca3ab7e81a4ee78e8f77ec5ddd989ad",
+    "gold-score-decomposition.csv": "195b4395df8b381d8cd2fa6a41eaf52c5e3224d74eddcb2209479e889e299d7b",
+    "metrics.json": "10661417681f0dfa65ae87d423d32a357e22d11af312557e4b03a4f5ec24a865",
+    "non-gold-examples.csv": "e9f1bd7db5df8c0a4a958698cb88e5638ed2eefb7c860cb85ce41bfdc379aaf0",
+    "three-deteriorated-before-after.csv": "2cf4686b0574ff8cebb0bfa34123dcb57a0a825dcc0f194bf6c2df5be24063f2"
+  }
+}

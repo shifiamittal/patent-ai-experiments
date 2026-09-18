@@ -1,0 +1,35 @@
+{
+  "freeze_commit": "0303428d542c279410b9166bf02822cf5f084f22",
+  "freeze_committed_at": "2026-09-18T17:38:05+05:30",
+  "first_direct_mapping_read_at": "2026-09-18T12:10:17.882213+00:00",
+  "prior_evaluation_derivative_read": "EXP-016A movement and metrics read only after successful freeze commit, before 2026-09-18T12:08:30Z",
+  "ranking_commit_bytes_exact": true,
+  "worktree_output_hashes": {
+    "correction-variants.json": "92fdb157b5ea8756e0eb96e012c277637fc8d39014107e6e0a83a8bcaf7d98d6",
+    "full-ranking.csv": "10192dcf765c827230b76def815112ec69bc06135c0719c7ed3828e4aa9033e2",
+    "structured-feature-extraction.csv": "8afd63cc4091152b3967137f6a1e4228786d08e9332d6498ea25164f1ec4a7a0",
+    "top-100-evidence.csv": "f8d546aa3fd5ba87e6832a724703bbe120a7ad9277c19224b4a90921a2c4df66",
+    "validation.json": "ec95894eb823e0ac7be6b213e0aee3137ab12e54532c29a5b7826e99b63c2824"
+  },
+  "committed_output_hashes": {
+    "correction-variants.json": "40d0883b31a05f4f45612bcb2413a3ac4cf8faf3a081f0e4e62d3ebb1338b391",
+    "full-ranking.csv": "10192dcf765c827230b76def815112ec69bc06135c0719c7ed3828e4aa9033e2",
+    "structured-feature-extraction.csv": "8afd63cc4091152b3967137f6a1e4228786d08e9332d6498ea25164f1ec4a7a0",
+    "top-100-evidence.csv": "f8d546aa3fd5ba87e6832a724703bbe120a7ad9277c19224b4a90921a2c4df66",
+    "validation.json": "82958a51c27537bdbfad53ffebf501297f033faeedd1082f81030337de36e223"
+  },
+  "line_endings": "Git normalized CRLF to LF for JSON artifacts; normalized bytes verified equal. All ranking CSV hashes match committed bytes exactly. No semantic or ranking changes after freeze.",
+  "sources": [
+    {
+      "path": "benchmarks/BC001-smartgun/restricted-evaluation/EXP-013/reconstructed-evaluation-mapping.csv",
+      "sha256": "85b01e21f0c03f2a0f3cf6d7f2fe276307a00b1a6c4cacfa59a5b994cb93ddcd"
+    },
+    {
+      "path": "benchmarks/BC001-smartgun/ground-truth/gold10.csv",
+      "sha256": "8787f3d8c5937d24d9cbe594a0f60437c9c395d72cb00bb1eb84b74f0a1e1d1e"
+    }
+  ],
+  "mapping_ambiguous_non_gold": 23,
+  "gold_mapping_exact": 6,
+  "prior_knowledge": "D1 and user-disclosed diagnoses; no private mapping before freeze; diagnosis-informed experiment, not zero-prior-knowledge blinding"
+}

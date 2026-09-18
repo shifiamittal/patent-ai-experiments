@@ -1,0 +1,52 @@
+{
+  "experiment": "EXP-018A",
+  "freeze_commit": "0303428d542c279410b9166bf02822cf5f084f22",
+  "decision": "PROMOTE",
+  "gold_denominator": 10,
+  "retrievable_denominator": 6,
+  "metrics": {
+    "exp013": {
+      "r20": 2,
+      "r50": 2,
+      "r100": 4,
+      "r200": 5,
+      "median": 90.5
+    },
+    "exp016a": {
+      "r20": 1,
+      "r50": 2,
+      "r100": 3,
+      "r200": 3,
+      "median": 142.5
+    },
+    "exp018a": {
+      "r20": 2,
+      "r50": 2,
+      "r100": 4,
+      "r200": 5,
+      "median": 55.0
+    }
+  },
+  "top20_overlap_counts": {
+    "exp013": 8,
+    "exp016a": 13
+  },
+  "preservation_checks": {
+    "invalid_fingerprint_explicit": true,
+    "architecture_mechanism_repaired": true,
+    "architecture_no_biometric_credit": true,
+    "architecture_functional_control": true,
+    "adjective_safe_not_storage": true,
+    "failed_identification_preserved": true,
+    "cabinet_no_operation": true,
+    "holster_no_operation": true
+  },
+  "ranking_sha256": "10192dcf765c827230b76def815112ec69bc06135c0719c7ed3828e4aa9033e2",
+  "not_retrieved": [
+    "US10996012B2",
+    "US20170160030A1",
+    "US20170248383A1",
+    "US6415542B1"
+  ],
+  "precision_at_20": "not calculated"
+}

@@ -5,9 +5,9 @@ Canonical state as of 2026-09-16.
 ## Source of truth
 - Benchmark: BC001-v0.1-provisional
 - Current retrieval baseline: RUN-012, 3,238-family FAMPAT export (AND variant)
-- Current reranker candidate: EXP-013, rs_v0.2_blind_ta_rerank
+- Current reranker: EXP-018A, rs_v0.4_extraction_gate_repair_ta (formally promoted 2026-09-18)
 - Most validated AI capability: EXP-011 evidence-assisted full-text review
-- No champion system has been designated.
+- BC001 title/abstract reranker champion: EXP-018A. No end-to-end champion system is validated.
 - Search Controller is not implemented/validated.
 
 ## Provenance rules
@@ -27,3 +27,9 @@ Canonical state as of 2026-09-16.
 - `CURRENT_SYSTEM.yaml`, original pending templates, and partial snapshots are preserved. Current PA-001 status is recorded separately in `benchmarks/BC001-smartgun/pending-validation/PA-001-status.yaml`.
 
 See docs/canonical-current-state-2026-09-16.md.
+
+## EXP-018A extraction/gating repair
+- PROMOTE: Recall@20/50/100/200 matches EXP-013 (2/10, 2/10, 4/10, 5/10); median of six retrieved GOLD improves 90.5 to 55.
+- Scoring policy and RUN-012 title/abstract input remain fixed; ranking committed before private mapping access.
+- See `experiments/BC001/EXP-018A/evaluation/evaluation.md` for individual rank regressions, decomposition, impact counts and limitations.
+- Mechanism-general; validated on BC001 only.

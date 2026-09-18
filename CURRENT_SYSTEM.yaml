@@ -1,10 +1,13 @@
 benchmark: BC001-v0.1-provisional
 current_retrieval_baseline: retrieval_v0.1_fampat_20260916_and_variant
-current_reranker_candidate: rs_v0.2_blind_ta_rerank
+current_reranker_candidate: rs_v0.4_extraction_gate_repair_ta
 current_evidence_assistant: ee_v0.1_fulltext_passage_assist
-champion: null
+champion: rs_v0.4_extraction_gate_repair_ta
+champion_scope: BC001 title/abstract reranking of RUN-012; EXP-018A formal promotion
 blocking_validation: PA-001
 next_experiment: adjudicate_v1_top20_then_compute_precision20_and_net_new_yield
 notes:
   - Do not merge RUN-005A 3091 snapshot with RUN-012 3238 rerun.
   - No end-to-end search system is validated.
+  - EXP-018A matches EXP-013 Recall@20/50/100/200 and improves median retrieved-GOLD rank from 90.5 to 55.
+  - Mechanism-general; validated on BC001 only. Individual GOLD ranks remain mixed; no new Precision@20 claim.

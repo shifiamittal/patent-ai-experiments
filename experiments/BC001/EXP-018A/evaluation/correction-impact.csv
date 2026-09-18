@@ -1,0 +1,5 @@
+correction,interpretation_state_changed,score_changed,rank_changed_including_displacement,affected_non_gold,direct_promoted,direct_demoted,classification
+outcomes,7,7,609,6,7,0,Reusable engine logic plus BC001 configuration/feature adapter
+relationships,61,61,3220,59,5,56,Reusable engine logic plus BC001 configuration/feature adapter
+mechanism,111,40,3179,110,111,0,Reusable engine logic plus BC001 configuration/feature adapter
+storage,63,60,2953,62,36,25,Reusable engine logic plus BC001 configuration/feature adapter
