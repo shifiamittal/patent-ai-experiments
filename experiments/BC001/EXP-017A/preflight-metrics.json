@@ -1,0 +1,50 @@
+{
+  "experiment_id": "EXP-017A",
+  "status": "AWAITING_ORBIT_PREFLIGHT",
+  "registration_date": "2026-09-18",
+  "count_unit": "FAMPAT families",
+  "baseline_source": "experiments/BC001/EXP-015/preflight/volume-preflight-results.csv",
+  "numeric_manageability_threshold": null,
+  "analyst_capacity_criterion": null,
+  "preflight_outcome": null,
+  "decision": null,
+  "decision_rationale": null,
+  "queries": [
+    {
+      "query_id": "Q1P",
+      "baseline_query_id": "EXP015-015A-Q1",
+      "baseline_query_count": 23935,
+      "proximity_query_count": null,
+      "absolute_reduction": null,
+      "percentage_reduction": null,
+      "operational_status": "AWAITING_ORBIT_PREFLIGHT",
+      "operationally_manageable": null,
+      "substantive_query_change_required": null,
+      "syntax_accepted": null,
+      "syntax_modifications": null,
+      "executed_query": null,
+      "analyst": null,
+      "executed_at": null,
+      "evidence_reference": null,
+      "analyst_notes": null
+    },
+    {
+      "query_id": "Q2P",
+      "baseline_query_id": "EXP015-015A-Q2",
+      "baseline_query_count": 493993,
+      "proximity_query_count": null,
+      "absolute_reduction": null,
+      "percentage_reduction": null,
+      "operational_status": "AWAITING_ORBIT_PREFLIGHT",
+      "operationally_manageable": null,
+      "substantive_query_change_required": null,
+      "syntax_accepted": null,
+      "syntax_modifications": null,
+      "executed_query": null,
+      "analyst": null,
+      "executed_at": null,
+      "evidence_reference": null,
+      "analyst_notes": null
+    }
+  ]
+}
